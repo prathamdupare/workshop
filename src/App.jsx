@@ -6,6 +6,7 @@ import Business from './components/Business';
 import Testiminials from './components/Testiminials';
 import YourComponent from './components/Programme';
 import Org from './components/Org';
+import Info from './components/Info';
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
           <Testiminials />
           <YourComponent />
           <Org />
+          <Info />
         </div>
       </div>
     </div>

@@ -54,7 +54,7 @@ const programData = [
 
 const Programme = () => {
   return (
-    <section className={`  `}>
+    <section id="programme" className={`  `}>
       <h1 className={`${styles.heading2} py-4 `}>Programme</h1>
       <table className="w-full bg-black-gradient-2 rounded-[20px] box-shadow text-white">
         <thead>

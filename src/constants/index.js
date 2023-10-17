@@ -26,12 +26,16 @@ export const navLinks = [
     title: 'About',
   },
   {
-    id: 'product',
+    id: 'programme',
     title: 'Programme',
   },
   {
-    id: 'clients',
-    title: 'People',
+    id: 'organizers',
+    title: 'Organizers',
+  },
+  {
+    id: 'information',
+    title: 'Information',
   },
 ];
 
@@ -154,6 +158,13 @@ export const coorganizers = [
     name: 'Alok Krishna Sinha',
     title: 'NIPGR, IN',
     img: people01,
+  },
+
+  {
+    id: 'feedback-2',
+    name: 'Ashverya Laxmi',
+    title: 'NIPGR, IN',
+    img: people02,
   },
 
   {
