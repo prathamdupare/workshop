@@ -1,11 +1,11 @@
-import { features } from '../constants';
-import styles, { layout } from '../style';
-import Button from './Button';
+import { features } from "../constants";
+import styles, { layout } from "../style";
+import Button from "./Button";
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div
     className={`flex flex-start justify-items-start flex-row p-6 rounded-[20px] ${
-      index !== features.length - 1 ? 'mb-6' : 'mb-0'
+      index !== features.length - 1 ? "mb-6" : "mb-0"
     } feature-card `}
   >
     <div
@@ -24,7 +24,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
   </div>
 );
 
-export const Business = () => {
+export const About = () => {
   return (
     <section id="features" className={`${layout.section} `}>
       <div className={layout.sectionInfo}>
@@ -50,24 +50,17 @@ export const Business = () => {
           stress response, circadian clocks, and recent advances in new
           optogenetic tools that use light to manipulate cellular signalling.
         </p>
-        <p className={`${styles.paragraph} max-w-[670px] mt-5`}>
-          This year, it was decided by the organisers to take this 11th meeting
-          of international photobiology under the umbrella of EMBO so that, a
-          better hybrid workshop with high impact and higher quality can be
-          achieved and most likely would continue in subsequent years,
-          bi-annually by next organizers.
-        </p>
 
+        <h2 className={styles.heading2}>About IISER Bhopal</h2>
         <p className={`${styles.paragraph} max-w-[670px] mt-5`}>
-          EMBO Courses and Workshops are selected for their excellent scientific
-          quality and timelines, provision of good networking activities for all
-          participants and speaker gender diversity (at least 40% of speakers
-          must be from the underrepresented gender).
-        </p>
-
-        <p className={`${styles.paragraph} max-w-[670px] mt-5`}>
-          Organisers are encouraged to implement measures to make the meeting
-          environmentally more sustainable.
+          Bhopal, geographically located in the centre of India known to be the
+          " Heart of India" is an attraction to many scenic beauties and famous
+          for its historical richness, handicrafts, and jewellery. It is also
+          known as the City of the Lakes. The details can be found here . IISER
+          Bhopal is one of the premiere institutes of India established in the
+          year 2008 ( https://www.iiserb.ac.in). The scenic beauty as well as
+          the electric atmosphere of the campus hosting over 1700 students is
+          indeed worth spending a day here.
         </p>
 
         <Button styles="mt-10" />
@@ -82,4 +75,4 @@ export const Business = () => {
   );
 };
 
-export default Business;
+export default About;

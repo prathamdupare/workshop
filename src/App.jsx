@@ -1,12 +1,13 @@
-import styles from './style';
+import styles from "./style";
 
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Business from './components/Business';
-import Testiminials from './components/Testiminials';
-import YourComponent from './components/Programme';
-import Org from './components/Org';
-import Info from './components/Info';
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Testiminials from "./components/Testiminials";
+import About from "./components/About";
+import YourComponent from "./components/Programme";
+import Org from "./components/Org";
+import Info from "./components/Info";
+import Payments from "./components/Payments";
 
 const App = () => {
   return (
@@ -20,11 +21,11 @@ const App = () => {
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Hero />
-          <Business />
+          <About />
           <Testiminials />
           <YourComponent />
+          <Payments />
           <Org />
-          <Info />
         </div>
       </div>
     </div>
