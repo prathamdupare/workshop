@@ -3,7 +3,7 @@ const Contact = () => {
     <section id="registrat">
       <div
         id="contact"
-        className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 text-white p-4 my-9 px-4 rounded-[20px] shadow-lg flex flex-col items-center justify-center"
+        className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 text-white p-4 my-9 px-4 rounded-[20px] shadow-lg flex flex-col items-center justify-center pt-24"
       >
         <h1 className="flex-1 font-poppins font-semibold ss:text-[30px] text-[32px] bg-blue-gradient w-60 text-50 p-3 my-3 rounded-[20px] text-center text-black ">
           Contact{" "}

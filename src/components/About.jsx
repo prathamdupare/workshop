@@ -3,7 +3,7 @@ import styles, { layout } from "../style";
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div
-    className={`flex flex-start justify-items-start flex-row p-6 rounded-[20px] ${
+    className={`flex flex-start justify-items-start flex-row p-6 rounded-[20px] pt-30 ${
       index !== features.length - 1 ? "mb-6" : "mb-0"
     } feature-card `}
   >

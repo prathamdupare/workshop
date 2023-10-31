@@ -14,7 +14,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className={`flex md:flex-row flex-row m-10 ${styles.paddingY}`}
+      className={`flex md:flex-row flex-row m-10 ${styles.paddingY} pt-30 m-24`}
       style={heroImageStyle}
     >
       <div

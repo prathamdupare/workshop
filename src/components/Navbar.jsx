@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import styles from "../style";
 
@@ -9,11 +9,31 @@ const Navbar = () => {
   const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
 
-  return (
-    <nav className="">
-      <nav className="w-full flex sticky  top-0 z-10 py-6 justify-between items-center navbar ">
-        <img src={logo} alt="hoobank" className="w-[150px] h-[60px]" />
+  // Calculate the height of the Navbar
+  const [navbarHeight, setNavbarHeight] = useState(0);
 
+  useEffect(() => {
+    const navbar = document.querySelector(".navbar");
+    if (navbar) {
+      setNavbarHeight(navbar.getBoundingClientRect().height);
+    }
+  }, []);
+
+  return (
+    <nav className="fixed top-0 left-0 right-0 z-10">
+      <nav
+        className="w-full flex  px-10 justify-between items-center navbar"
+        style={{
+          backdropFilter: "blur(10px)",
+          backgroundColor: "rgba(135, 206, 235, 0.1)",
+        }}
+      >
+        {" "}
+        <img
+          src={logo}
+          alt="hoobank"
+          className="w-[1blur navbar in tailwing50px] h-[60px]"
+        />
         <ul className="list-none sm:flex hidden justify-end items-center flex-1">
           {navLinks.map((nav, index) => (
             <li
@@ -27,7 +47,6 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}

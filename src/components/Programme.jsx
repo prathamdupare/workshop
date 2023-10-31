@@ -5,7 +5,7 @@ class ConferenceSchedule extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      showDay1: false,
+      showDay1: true,
       showDay2: false,
     };
   }
@@ -22,7 +22,7 @@ class ConferenceSchedule extends Component {
     return (
       <div
         id="schedule"
-        className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 text-white p-4 my-9 px-4 rounded-[20px] shadow-lg"
+        className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 text-white p-4 my-9 px-4 rounded-[20px] shadow-lg pt-24"
       >
         <h1 className={styles.heading2}>Schedule</h1>
         <button
