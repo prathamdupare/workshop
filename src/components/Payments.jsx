@@ -2,7 +2,8 @@ const Payments = () => {
   return (
     <section id="registration">
       <div>
-        <div className="bg-black-gradient-2 rounded-[20px] text-white p-8 my-8">
+        <div className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 text-white p-4 my-9 px-4 rounded-[20px] shadow-lg">
+          <div className="absolute z-[0] w-[50%] h-[70%] top-0 blue__gradient"></div>
           <h1 className="flex-1  text-white font-poppins font-semibold ss:text-[42px] text-[32px]">
             Registration{" "}
             <br className="sm:block hidden ss:leading-[100px] leading-[75px]" />
@@ -79,7 +80,7 @@ const Payments = () => {
           </div>
         </div>
 
-        <div className="bg-black-gradient-2 rounded-[20px] text-white p-8 my-8">
+        <div className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 text-white p-4 my-9 px-4 rounded-[20px] shadow-lg">
           <h1 className="flex-1  text-white font-poppins font-semibold ss:text-[30px] text-[32px]">
             Abstract Guidelines{" "}
             <br className="sm:block hidden ss:leading-[100px] leading-[75px]" />

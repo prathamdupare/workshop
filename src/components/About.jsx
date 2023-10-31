@@ -12,7 +12,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
     >
       <img src={icon} alt={icon} className="w-[30%] h-[30%] object-contain" />
     </div>
-    <div className="flex-1 flex flex-col ml-3">
+    <div className="flex-1 z-[1] flex flex-col ml-3">
       <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23px] mb-1">
         {title}
       </h4>
@@ -20,6 +20,8 @@ const FeatureCard = ({ icon, title, content, index }) => (
         {content}
       </p>
     </div>
+
+    <div className="absolute z-[0] w-[50%] h-[70%] top-0 blue__gradient"></div>
   </div>
 );
 

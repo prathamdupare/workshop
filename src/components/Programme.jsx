@@ -20,7 +20,7 @@ class ConferenceSchedule extends Component {
 
   render() {
     return (
-      <div className="bg-black-gradient-2 rounded-[20px] text-white p-4">
+      <div className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 text-white p-4 my-9 px-4 rounded-[20px] shadow-lg">
         <h1 className={styles.heading2}>Schedule</h1>
         <button
           className="bg-blue-gradient text-black-300 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-2"

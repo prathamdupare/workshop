@@ -8,6 +8,7 @@ import YourComponent from "./components/Programme";
 import Org from "./components/Org";
 import Payments from "./components/Payments";
 import Programme from "./components/Programme";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
           <YourComponent />
           <Payments />
           <Org />
+          <Contact />
         </div>
       </div>
     </div>
