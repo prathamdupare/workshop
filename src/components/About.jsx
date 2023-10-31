@@ -52,7 +52,9 @@ export const About = () => {
           optogenetic tools that use light to manipulate cellular signalling.
         </p>
 
-        <h2 className={styles.heading2}>About IISER Bhopal</h2>
+        <h2 className={`${styles.heading2} text-justify max-w-[670px] mt-5`}>
+          About IISER Bhopal
+        </h2>
         <p className={`${styles.paragraph} text-justify max-w-[670px] mt-5`}>
           Bhopal, geographically located in the centre of India known to be the
           Heart of India is an attraction to many scenic beauties and famous for
