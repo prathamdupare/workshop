@@ -11,26 +11,23 @@ const Contact = () => {
             EMBO-ISPP Satellite meeting committee{" "}
             <br className="sm:block hidden ss:leading-[100px] leading-[75px]" />
           </h1>
-          <h2 className="bg-white w-60 text-50 p-1 my-3 rounded-[20px] text-center text-black">
-            Mail-{" "}
+
+          <div className="flex space-x-4">
             <a
               href="mailto:ispp_sat@iiserb.ac.in"
-              className="text-blue-400 hover:underline"
+              className="flex items-center p-2 text-blue-500"
             >
-              ispp_sat@iiserb.ac.in
+              📧 Mail
             </a>
-          </h2>
-          <h2 className="bg-white w-60 text-50 p-1 my-3 rounded-[20px] text-center text-black">
-            Tweet-{" "}
             <a
               href="https://twitter.com/pcdb_lab_iiserb"
-              className="text-blue-400 hover:underline"
               target="_blank"
-              rel="noopener noreferrer"
+              className="flex items-center p-2 text-blue-500"
+              rel="noreferrer"
             >
-              @pcdb_lab_iiserb
+              🐦 Tweet
             </a>
-          </h2>
+          </div>
           <h2 className="bg-white w-60 text-50 p-1 my-3 rounded-[20px] text-center text-black">
             #ISPP24 #EMBOplantBio
           </h2>
