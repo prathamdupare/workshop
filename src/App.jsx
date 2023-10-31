@@ -6,8 +6,8 @@ import Testiminials from "./components/Testiminials";
 import About from "./components/About";
 import YourComponent from "./components/Programme";
 import Org from "./components/Org";
-import Info from "./components/Info";
 import Payments from "./components/Payments";
+import Programme from "./components/Programme";
 
 const App = () => {
   return (

@@ -41,7 +41,7 @@ const Payments = () => {
             <p className="bg-white w-60 text-50 p-1 my-3 rounded-[20px] text-center text-black ">
               Follow these steps:
             </p>
-            <ol>
+            <ol className="list-decimal">
               <li>Select category - Educational Institutions</li>
               <li>
                 Search for Indian Institute of Science Education and Research
@@ -68,7 +68,7 @@ const Payments = () => {
             <h2 className="bg-blue-gradient w-60 text-50 p-3 my-3 rounded-[20px] text-center text-black ">
               Registration includes:
             </h2>
-            <ul>
+            <ul className="list-disc">
               <li>Registration Kit</li>
               <li>Accommodation</li>
               <li>
@@ -81,7 +81,7 @@ const Payments = () => {
 
         <div className="bg-black-gradient-2 rounded-[20px] text-white p-8 my-8">
           <h1 className="flex-1  text-white font-poppins font-semibold ss:text-[30px] text-[32px]">
-            Abstract{" "}
+            Abstract Guidelines{" "}
             <br className="sm:block hidden ss:leading-[100px] leading-[75px]" />
           </h1>
           <div>
@@ -93,9 +93,6 @@ const Payments = () => {
               form.
             </p>
 
-            <h3 className="bg-white w-60 text-50 p-1 my-3 rounded-[20px] text-center text-black ">
-              Abstract Guidelines:
-            </h3>
             <p>Title, Authors, Affiliations, & Abstract (500 words max)</p>
 
             <ul>
@@ -110,9 +107,7 @@ const Payments = () => {
               </li>
             </ul>
           </div>
-        </div>
 
-        <div className="bg-black-gradient-2 rounded-[20px] text-white p-8 my-8">
           <h1 className="flex-1  text-white font-poppins font-semibold ss:text-[30px] text-[32px]">
             Accommodation{" "}
             <br className="sm:block hidden ss:leading-[100px] leading-[75px]" />

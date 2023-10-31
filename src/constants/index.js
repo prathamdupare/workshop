@@ -1,7 +1,4 @@
 import {
-  people01,
-  people02,
-  people03,
   facebook,
   instagram,
   linkedin,
@@ -10,6 +7,10 @@ import {
   binance,
   coinbase,
   dropbox,
+  people01,
+  people02,
+  people03,
+
   // send,
   // shield,
   // calendar,
@@ -74,12 +75,6 @@ export const features = [
     title: "Abstract Submission Deadline",
     content: "20th December 2023",
   },
-  {
-    id: "deadline-4",
-    icon: "",
-    title: "* Late registration will be charged with an extra fee of Rs. 500",
-    content: "30 November 2023",
-  },
 ];
 
 export const feedback = [
@@ -95,7 +90,7 @@ export const feedback = [
     name: "As Raghavendra",
     affiliation: "University of Hyderabad, INDIA",
     link: "http://sls.uohyd.ac.in/new/fac_details.php?fac_id=101",
-    img: people02,
+    img: people01,
   },
   {
     id: "feedback-3",

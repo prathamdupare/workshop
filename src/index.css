@@ -5,6 +5,19 @@
 @tailwind utilities;
 
 :root {
+  --dark-sky-gradient: linear-gradient(
+    144.39deg,
+    /* Angle */ #1a5276,
+    /* Dark Blue Color */ #0e2a47,
+    /* Even Darker Blue Color */ #1a5276 /* Dark Blue Color */
+  );
+
+  --sky-gradient: linear-gradient(
+    144.39deg,
+    /* Angle */ #87ceeb,
+    /* Light Blue Color */ #b0e0e6,
+    /* Powder Blue Color */ #87ceeb /* Light Blue Color */
+  );
   --black-gradient: linear-gradient(
     144.39deg,
     #ffffff -278.56%,
@@ -121,7 +134,7 @@
 }
 
 .feedback-card:hover {
-  background: var(--black-gradient);
+  background: var(--dark-sky-gradient);
 }
 
 .blue__gradient {

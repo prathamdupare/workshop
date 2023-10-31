@@ -1,6 +1,5 @@
 import { features } from "../constants";
 import styles, { layout } from "../style";
-import Button from "./Button";
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div
@@ -28,15 +27,16 @@ export const About = () => {
   return (
     <section id="features" className={`${layout.section} `}>
       <div className={layout.sectionInfo}>
+        <div className="absolute z-[0] w-[55%] h-[55%] top-0 blue__gradient"></div>
         <h2 className={styles.heading2}>About the Workshop</h2>
-        <p className={`${styles.paragraph} max-w-[670px] mt-5`}>
+        <p className={`${styles.paragraph} text-justify max-w-[670px] mt-5`}>
           This unique meeting started in 2001 in USA as “The International
           Symposium on Plant Photobiology” and since then the organisation
           responsibility circulates voluntarily between scientists from Asia,
           the Americas and Europe every two years.
         </p>
 
-        <p className={`${styles.paragraph} max-w-[670px] mt-5`}>
+        <p className={`${styles.paragraph} text-justify max-w-[670px] mt-5`}>
           It is the single platform where plant photobiology leaders as well as
           upcoming talents across the globe gather on their own interest to
           share their latest mostly unpublished results and discuss future
@@ -52,18 +52,16 @@ export const About = () => {
         </p>
 
         <h2 className={styles.heading2}>About IISER Bhopal</h2>
-        <p className={`${styles.paragraph} max-w-[670px] mt-5`}>
+        <p className={`${styles.paragraph} text-justify max-w-[670px] mt-5`}>
           Bhopal, geographically located in the centre of India known to be the
-          " Heart of India" is an attraction to many scenic beauties and famous
-          for its historical richness, handicrafts, and jewellery. It is also
-          known as the City of the Lakes. The details can be found here . IISER
-          Bhopal is one of the premiere institutes of India established in the
-          year 2008 ( https://www.iiserb.ac.in). The scenic beauty as well as
-          the electric atmosphere of the campus hosting over 1700 students is
-          indeed worth spending a day here.
+          Heart of India is an attraction to many scenic beauties and famous for
+          its historical richness, handicrafts, and jewellery. It is also known
+          as the City of the Lakes. The details can be found here . IISER Bhopal
+          is one of the premiere institutes of India established in the year
+          2008 ( https://www.iiserb.ac.in). The scenic beauty as well as the
+          electric atmosphere of the campus hosting over 1700 students is indeed
+          worth spending a day here.
         </p>
-
-        <Button styles="mt-10" />
       </div>
 
       <div className={`${layout.sectionImg} flex-col hahh justify-items-end`}>
