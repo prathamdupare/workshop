@@ -22,6 +22,7 @@ import {
   vivekDogra,
   people04,
   mengchen,
+  souravdatta,
 } from "../assets";
 
 export const navLinks = [
@@ -197,7 +198,7 @@ export const organizers = [
     id: "feedback-1",
     name: "Sourav Datta",
     title: "IISER Bhopal, INDIA (sdatta@iiserb.ac.in)",
-    img: people01,
+    img: souravdatta,
   },
   {
     id: "feedback-1",
