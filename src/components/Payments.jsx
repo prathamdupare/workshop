@@ -1,8 +1,15 @@
+import { useState } from "react";
+
 const Payments = () => {
+  const [showSteps, setShowSteps] = useState(false);
+
+  const toggleSteps = () => {
+    setShowSteps(!showSteps);
+  };
   return (
     <section id="registration">
       <div>
-        <div className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 text-white p-4 my-9 px-4 rounded-[20px] shadow-lg">
+        <div className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 text-white p-4 my-9 px-10 rounded-[20px] leading-9 shadow-lg">
           <div className="absolute z-[0] w-[50%] h-[70%] top-0 blue__gradient"></div>
           <h1 className="flex-1  text-white font-poppins font-semibold ss:text-[42px] text-[32px]">
             Registration{" "}
@@ -24,7 +31,6 @@ const Payments = () => {
             <p className="text-red-400">
               * Late registration will be charged with an extra fee of Rs. 500
             </p>
-
             <h2 className="bg-blue-gradient w-60 text-50 p-3 my-3 rounded-[20px] text-center text-black ">
               Fees and Bank details
             </h2>
@@ -34,30 +40,40 @@ const Payments = () => {
               <li>Faculty - Rs. 5000</li>
               <li>Industry - Rs. 7000</li>
             </ul>
-
             <p>
               The fee has to be paid through the SBI Collect Portal (
               <a href="link-to-SBI-Collect-Portal">Click Here</a>).
             </p>
-            <p className="bg-white w-60 text-50 p-1 my-3 rounded-[20px] text-center text-black ">
-              Follow these steps:
-            </p>
-            <ol className="list-decimal">
-              <li>Select category - Educational Institutions</li>
-              <li>
-                Search for Indian Institute of Science Education and Research
-                (State: Madhya Pradesh)
-              </li>
-              <li>Payment Category: ISPP-Satellite Meeting (IISER Bhopal)</li>
-              <li>
-                Fill in the details accordingly and pay the fees belonging to
-                your category
-              </li>
-              <li>
-                After payment, download the fee receipt as PDF and upload it in
-                the registration form.
-              </li>
-            </ol>
+            <div className="">
+              <button
+                onClick={toggleSteps}
+                className="bg-white text-black font-bold py-2 px-4 rounded-[20px] m-2 transform hover:scale-105 transition-transform"
+              >
+                {showSteps ? "Follow these Steps" : "Show Steps"}
+              </button>
+              {showSteps && (
+                <div>
+                  <ol className="list-decimal">
+                    <li>Select category - Educational Institutions</li>
+                    <li>
+                      Search for Indian Institute of Science Education and
+                      Research (State: Madhya Pradesh)
+                    </li>
+                    <li>
+                      Payment Category: ISPP-Satellite Meeting (IISER Bhopal)
+                    </li>
+                    <li>
+                      Fill in the details accordingly and pay the fees belonging
+                      to your category
+                    </li>
+                    <li>
+                      After payment, download the fee receipt as PDF and upload
+                      it in the registration form.
+                    </li>
+                  </ol>
+                </div>
+              )}
+            </div>{" "}
             <p className="text-red-400">
               * Must upload the fee payment receipt as a PDF in the registration
               form
@@ -65,7 +81,6 @@ const Payments = () => {
             <p className="text-red-400">
               * No travel grant or a fee waiver is available
             </p>
-
             <h2 className="bg-blue-gradient w-60 text-50 p-3 my-3 rounded-[20px] text-center text-black ">
               Registration includes:
             </h2>
@@ -80,7 +95,7 @@ const Payments = () => {
           </div>
         </div>
 
-        <div className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 text-white p-4 my-9 px-4 rounded-[20px] shadow-lg">
+        <div className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 text-white p-10 my-9 rounded-[20px] shadow-lg leading-9">
           <h1 className="flex-1  text-white font-poppins font-semibold ss:text-[30px] text-[32px]">
             Abstract Guidelines{" "}
             <br className="sm:block hidden ss:leading-[100px] leading-[75px]" />
@@ -96,7 +111,7 @@ const Payments = () => {
 
             <p>Title, Authors, Affiliations, & Abstract (500 words max)</p>
 
-            <ul>
+            <ul className="list-disc">
               <li>Please select the mode of presentation (Talk/Poster/Both)</li>
               <li>
                 Selected talks from abstracts will be notified by email

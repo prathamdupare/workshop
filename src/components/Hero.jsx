@@ -23,7 +23,7 @@ const Hero = () => {
             <br className="sm:block hidden ss:leading-[100px] leading-[75px]" />
           </h1>
 
-          <div className="absolute z-[0] w-[20%] h-[35%] top-0 blue__gradient"></div>
+          <div className="absolute z-[0] w-[25%] h-[40%] top-0 blue__gradient"></div>
         </div>
       </div>
     </section>

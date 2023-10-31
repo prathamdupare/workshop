@@ -5,7 +5,7 @@ class ConferenceSchedule extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      showDay1: true,
+      showDay1: false,
       showDay2: false,
     };
   }
@@ -23,20 +23,19 @@ class ConferenceSchedule extends Component {
       <div className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 text-white p-4 my-9 px-4 rounded-[20px] shadow-lg">
         <h1 className={styles.heading2}>Schedule</h1>
         <button
-          className="bg-blue-gradient text-black-300 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-2"
+          className="bg-blue-gradient text-black font-bold py-2 px-4 rounded m-2 transform hover:scale-105 transition-transform"
           onClick={this.toggleDay1}
         >
           Day 1
         </button>
         <button
-          className="bg-blue-gradient text-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-2"
+          className="bg-blue-gradient text-black font-bold py-2 px-4 rounded m-2 transform hover:scale-105 transition-transform"
           onClick={this.toggleDay2}
         >
           Day 2
         </button>
-
         {this.state.showDay1 && (
-          <div className="mt-4 leading-9 ">
+          <div className="mt-4 leading-9 transition-all duration-500 ">
             <h2 className="text-2xl mb-2">Day 1: 15 January 2024</h2>
             <p>
               <strong className="text-sky-400">
@@ -147,7 +146,7 @@ class ConferenceSchedule extends Component {
         )}
 
         {this.state.showDay2 && (
-          <div className="mt-4 leading-9 ">
+          <div className="mt-4 leading-9 transition-all duration-500">
             <h2 className="text-2xl mb-2">Day 2: 16 January 2024</h2>
             <p>
               <strong className="text-black bg-white p-1 rounded-[20px]">
