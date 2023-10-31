@@ -27,9 +27,8 @@ const FeatureCard = ({ icon, title, content, index }) => (
 
 export const About = () => {
   return (
-    <section id="features" className={`${layout.section} `}>
+    <section id="about" className={`${layout.section} `}>
       <div className={layout.sectionInfo}>
-        <div className="absolute z-[0] w-[55%] h-[55%] top-0 blue__gradient"></div>
         <h2 className={styles.heading2}>About the Workshop</h2>
         <p className={`${styles.paragraph} text-justify max-w-[670px] mt-5`}>
           This unique meeting started in 2001 in USA as “The International

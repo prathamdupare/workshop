@@ -10,7 +10,6 @@ const Payments = () => {
     <section id="registration">
       <div>
         <div className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 text-white p-4 my-9 px-10 rounded-[20px] leading-9 shadow-lg">
-          <div className="absolute z-[0] w-[50%] h-[70%] top-0 blue__gradient"></div>
           <h1 className="flex-1  text-white font-poppins font-semibold ss:text-[42px] text-[32px]">
             Registration{" "}
             <br className="sm:block hidden ss:leading-[100px] leading-[75px]" />

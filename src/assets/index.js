@@ -12,6 +12,7 @@ import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
 import menu from "./menu.svg";
+import hero from "./hero.png";
 import close from "./close.svg";
 import google from "./google.svg";
 import apple from "./apple.svg";
@@ -42,6 +43,7 @@ import vivekDogra from "./vivekDogra.png"; // New image
 export {
   airbnb,
   bill,
+  hero,
   binance,
   coinbase,
   dropbox,
