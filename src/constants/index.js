@@ -104,14 +104,14 @@ export const feedback = [
     name: "Ashverya Laxmi",
     affiliation: "NIPGR, INDIA",
     link: "https://www.nipgr.ac.in/research/dr_alaxmi.php",
-    img: people02,
+    img: "",
   },
   {
     id: "feedback-5",
     name: "Elena Monte",
     affiliation: "CRAG, Barcelona, Spain",
     link: "https://www.cragenomica.es/research-groups/environmental-control-plant-and-algae-growth",
-    img: people03,
+    img: "",
   },
   {
     id: "feedback-6",
