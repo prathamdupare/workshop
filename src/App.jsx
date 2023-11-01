@@ -5,6 +5,8 @@ import Hero from "./components/Hero";
 import Testiminials from "./components/Testiminials";
 import About from "./components/About";
 import YourComponent from "./components/Programme";
+
+import Footer from "./components/Footer";
 import Org from "./components/Org";
 import ScrollPaddingComponent from "./components/ScrollPaddingComponent";
 import Payments from "./components/Payments";
@@ -33,6 +35,7 @@ const App = () => {
             <Payments />
             <Org />
             <Contact />
+            <Footer />
           </div>
         </div>
       </div>
