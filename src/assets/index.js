@@ -39,7 +39,9 @@ import souravdatta from "./souravdatta.png"; // New image
 import sreeramaiahgangappa from "./sreeramaiahgangappa.png"; // New image
 import utehöcker from "./utehöcker.png"; // New image
 import vivekDogra from "./vivekDogra.png"; // New image
-
+import ashish from "./dr_aashish.png";
+import uthpal from "./uthpal.jpg";
+import shyam from "./shyam.jpg";
 export {
   airbnb,
   bill,
@@ -62,6 +64,7 @@ export {
   facebook,
   instagram,
   linkedin,
+  ashish,
   twitter,
   people01,
   people02,
@@ -70,6 +73,8 @@ export {
   anjan, // Include the new image in the export list
   ashveryalaxmi,
   gabrielatoledoortiz,
+  uthpal,
+  shyam,
   kalika,
   kishoreCSPanigrahi,
   liamdolan,

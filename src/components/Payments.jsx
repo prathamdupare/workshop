@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import Button from "./Button";
 const Payments = () => {
   const [showSteps, setShowSteps] = useState(false);
 
@@ -10,22 +10,28 @@ const Payments = () => {
     <section id="registration">
       <div>
         <div className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 text-white p-4 my-9 px-10 rounded-[20px] leading-9 shadow-lg pt-24">
-          <h1 className="flex-1  text-white font-poppins font-semibold ss:text-[42px] text-[32px]">
+          <h1 className="flex-1  text-white font-poppins font-semibold pb-5 ss:text-[42px] text-[32px]">
             Registration{" "}
             <br className="sm:block hidden ss:leading-[100px] leading-[75px]" />
           </h1>
-          <h1 className="flex-1  text-white font-poppins font-semibold ss:text-[30px] text-[32px]">
-            Payments{" "}
-            <br className="sm:block hidden ss:leading-[100px] leading-[75px]" />
-          </h1>
+
           <div>
             <h2 className="bg-blue-gradient w-60 text-50 p-3 my-3 rounded-[20px] text-center text-black ">
               Important Dates
             </h2>
             <ul>
-              <li>Early registration deadline - 10th December 2023</li>
-              <li>Late registration deadline - 20th December 2023</li>
-              <li>Abstract submission deadline - 20th December 2023</li>
+              <li>
+                <span>Early registration deadline -</span>{" "}
+                <strong className="text-yellow-200">10th December 2023</strong>
+              </li>
+              <li>
+                <span>Late registration deadline -</span>{" "}
+                <strong className="text-yellow-200">20th December 2023</strong>
+              </li>
+              <li>
+                <span>Abstract submission deadline -</span>{" "}
+                <strong className="text-yellow-200">20th December 2023</strong>
+              </li>
             </ul>
             <p className="text-red-400">
               * Late registration will be charged with an extra fee of Rs. 500
@@ -34,10 +40,18 @@ const Payments = () => {
               Fees and Bank details
             </h2>
             <ul>
-              <li>Students - Rs. 2500</li>
-              <li>Postdoc - Rs. 3000</li>
-              <li>Faculty - Rs. 5000</li>
-              <li>Industry - Rs. 7000</li>
+              <li>
+                <strong>Students - Rs. 2500</strong>
+              </li>
+              <li>
+                <strong>Postdoc - Rs. 3000</strong>
+              </li>
+              <li>
+                <strong>Faculty - Rs. 5000</strong>
+              </li>
+              <li>
+                <strong>Industry - Rs. 7000</strong>
+              </li>
             </ul>
             <p>
               The fee has to be paid through the SBI Collect Portal (
@@ -94,6 +108,9 @@ const Payments = () => {
           </div>
         </div>
 
+        <div className="flex items-center flex-1 justify-center">
+          <Button />
+        </div>
         <div className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 text-white p-10 my-9 rounded-[20px] shadow-lg leading-9 pt-24">
           <h1 className="flex-1  text-white font-poppins font-semibold ss:text-[30px] text-[32px]">
             Abstract Guidelines{" "}

@@ -23,6 +23,10 @@ import {
   people04,
   mengchen,
   souravdatta,
+  ashish,
+  shyam,
+  uthpal,
+  kishoreCSPanigrahi,
 } from "../assets";
 
 export const navLinks = [
@@ -95,7 +99,7 @@ export const feedback = [
   },
   {
     id: "feedback-2",
-    name: "As Raghavendra",
+    name: "AS Raghavendra",
     affiliation: "University of Hyderabad, INDIA",
     link: "http://sls.uohyd.ac.in/new/fac_details.php?fac_id=101",
     img: people01,
@@ -105,7 +109,7 @@ export const feedback = [
     name: "Aashish Ranjan",
     affiliation: "NIPGR, INDIA",
     link: "https://nipgr.ac.in/research/dr_aashish.php",
-    img: people03,
+    img: ashish,
   },
   {
     id: "feedback-4",
@@ -161,7 +165,7 @@ export const feedback = [
     name: "Shyam Masakapalli",
     affiliation: "IIT Mandi, INDIA",
     link: "https://sites.google.com/view/metsysbiolab",
-    img: "",
+    img: shyam,
   },
   {
     id: "feedback-12",
@@ -174,7 +178,7 @@ export const feedback = [
     id: "feedback-13",
     name: "Ute Hocker",
     affiliation: "CEPLAS, Germany",
-    link: "https://www.ceplas.eu/en/research/prof-dr-ute-hoecker",
+    link: "https://www.ceplas.eu/en/research/prof-dr-u09 – 12 January 2024 | Bhubaneswar, Odisha, Indiate-hoecker",
     img: utehöcker,
   },
   {
@@ -182,7 +186,7 @@ export const feedback = [
     name: "Utpal Nath",
     affiliation: "IISc Bangalore, INDIA",
     link: "https://mcbl.iisc.ac.in/utpal-nath/",
-    img: "",
+    img: uthpal,
   },
   {
     id: "feedback-15",
@@ -203,8 +207,8 @@ export const organizers = [
   {
     id: "feedback-1",
     name: "Kishore Panigrahi",
-    title: "NISER Bhubaneswar, INDIA (email-id)",
-    img: people01,
+    title: "Co-Organizer,       NISER Bhubaneswar, INDIA (email-id)",
+    img: kishoreCSPanigrahi,
   },
 ];
 

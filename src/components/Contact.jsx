@@ -1,3 +1,5 @@
+import "remixicon/fonts/remixicon.css";
+
 const Contact = () => {
   return (
     <section id="registrat">
@@ -9,18 +11,18 @@ const Contact = () => {
           Contact{" "}
           <br className="sm:block hidden ss:leading-[100px] leading-[75px]" />
         </h1>
-        <div className="flex flex-col items-center justify-center">
-          <h1 className="flex-1  text-white font-poppins font-semibold ss:text-[20px] text-[22px] flex flex-col items-center justify-center">
-            EMBO-ISPP Satellite meeting committee{" "}
-            <br className="sm:block hidden ss:leading-[100px] leading-[75px]" />
+
+        <div className="bg-gray-800 p-4 rounded-lg shadow-lg mb-5 mx-auto">
+          <h1 className="text-white font-poppins font-semibold text-2xl text-center mb-4">
+            EMBO-ISPP Satellite meeting committee
           </h1>
 
-          <div className="flex space-x-4">
+          <div className="flex justify-center space-x-4 mb-4 p-4">
             <a
               href="mailto:ispp_sat@iiserb.ac.in"
-              className="flex items-center p-2 text-blue-500"
+              className="flex items-center justify-center p-2 text-blue-500"
             >
-              📧 Mail
+              <i className="ri-mail-line text-lg mr-2"></i>ispp_sat@iiserb.ac.in
             </a>
             <a
               href="https://twitter.com/pcdb_lab_iiserb"
@@ -28,20 +30,21 @@ const Contact = () => {
               className="flex items-center p-2 text-blue-500"
               rel="noreferrer"
             >
-              🐦 Tweet
+              <i className="ri-twitter-x-fill text-lg mr-2"></i>Tweet
             </a>
           </div>
-          <h2 className="bg-white w-60 text-50 p-1 my-3 rounded-[20px] text-center text-black">
+
+          <h2 className="bg-white text-black p-2 rounded-lg text-center">
             #ISPP24 #EMBOplantBio
           </h2>
         </div>
-        <div>
-          <h1 className="flex-1 flex-col items-center justify-center text-white font-poppins font-semibold ss:text-[20px] text-[22px]">
-            Dr. Sourav Datta{" "}
-            <br className="sm:block hidden ss:leading-[100px] leading-[75px]" />
+
+        <div className="bg-gray-800 p-4 rounded-lg shadow-lg w-72 mx-auto">
+          <h1 className="text-white font-poppins font-semibold text-2xl text-center mb-4">
+            Dr. Sourav Datta
           </h1>
-          <h2 className="bg-white w-60 text-50 p-1 my-3 rounded-[20px] text-center text-black">
-            Mail-{" "}
+          <h2 className="bg-white text-black p-2 rounded-lg text-center mb-4">
+            <i className="ri-mail-line"></i>
             <a
               href="mailto:sdatta@iiserb.ac.in"
               className="text-blue-400 hover:underline"
@@ -49,13 +52,14 @@ const Contact = () => {
               sdatta@iiserb.ac.in
             </a>
           </h2>
-
-          <h2 className="bg-white w-60 text-50 p-1 my-3 rounded-[20px] text-center text-black">
+          <h2 className="bg-white text-black p-2 rounded-lg text-center">
+            <i className="ri-map-pin-fill"></i>
             Venue: IISER Bhopal, Madhya Pradesh, INDIA
           </h2>
         </div>
+
         <div className="flex flex-col items-center justify-center my-6">
-          <div className="flex-1  text-white font-poppins font-semibold ss:text-[20px] text-[22px]">
+          <div className="flex-1  text-white font-poppins font-semibold ss:text-[20px] mb-4 text-[22px]">
             Map
           </div>
           <iframe
