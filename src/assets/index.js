@@ -7,6 +7,8 @@ import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import logo from "./logo1.png";
 import logoX from "./logo.png";
+import logoW from "./logoW.jpg";
+import logoM from "./logomain.jpg";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import send from "./Send.svg";
@@ -58,6 +60,7 @@ export {
   star,
   menu,
   close,
+  logoM,
   google,
   apple,
   arrowUp,
@@ -68,6 +71,7 @@ export {
   ashish,
   twitter,
   logoX,
+  logoW,
   people01,
   people02,
   people03,
