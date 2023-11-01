@@ -10,6 +10,10 @@ function Footer() {
             Pratham Dupare
           </a>
         </p>
+        <p className="text-sm text-slate-400">
+          EMBO-ISPP SATELLITE MEETING Logo by{" "}
+          <span className="text-blue-300">Sukriti and Shubhi Dwivedi</span>
+        </p>
       </div>
     </footer>
   );
