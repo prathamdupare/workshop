@@ -174,6 +174,9 @@ export const feedback = [
     link: "https://www.iiserkol.ac.in/web/en/people/faculty/dbs/ngsreeram/#gsc.tab=0",
     img: sreeramaiahgangappa,
   },
+];
+
+export const feedback2 = [
   {
     id: "feedback-13",
     name: "Ute Hocker",
@@ -207,7 +210,7 @@ export const organizers = [
   {
     id: "feedback-1",
     name: "Kishore Panigrahi",
-    title: "Co-Organizer,       NISER Bhubaneswar, INDIA (email-id)",
+    title: "Co-Organizer,       NISER Bhubaneswar, INDIA ",
     img: kishoreCSPanigrahi,
   },
 ];

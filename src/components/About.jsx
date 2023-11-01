@@ -20,16 +20,15 @@ const FeatureCard = ({ icon, title, content, index }) => (
         {content}
       </p>
     </div>
-
-    <div className="absolute z-[0] w-[50%] h-[70%] top-0 blue__gradient"></div>
   </div>
 );
 
 export const About = () => {
   return (
-    <section id="about" className={`${layout.section} `}>
+    <section id="about" className={`${layout.section}`}>
+      {" "}
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>About the Workshop</h2>
+        <h2 className={`pt-[50px] ${styles.heading2}`}>About the Workshop</h2>
         <p className={`${styles.paragraph} text-justify max-w-[670px] mt-5`}>
           This unique meeting started in 2001 in USA as “The International
           Symposium on Plant Photobiology” and since then the organisation
@@ -52,7 +51,7 @@ export const About = () => {
           optogenetic tools that use light to manipulate cellular signalling.
         </p>
 
-        <h2 className={`${styles.heading2} text-justify max-w-[670px] mt-5`}>
+        <h2 className={`${styles.paragraph} text-justify max-w-[670px] mt-5`}>
           About IISER Bhopal
         </h2>
         <p className={`${styles.paragraph} text-justify max-w-[670px] mt-5`}>
@@ -66,11 +65,12 @@ export const About = () => {
           worth spending a day here.
         </p>
       </div>
-
-      <div className={`${layout.sectionImg} flex-col hahh justify-items-end`}>
-        {features.map((feature, index) => (
-          <FeatureCard key={feature.id} {...feature} index={index} />
-        ))}
+      <div className="flex flex-row ">
+        <div className={` pt-[80px] flex-col  justify-items-center`}>
+          {features.map((feature, index) => (
+            <FeatureCard key={feature.id} {...feature} index={index} />
+          ))}
+        </div>
       </div>
     </section>
   );

@@ -10,7 +10,6 @@ function Logo() {
         width="320" // Set the desired width
         height="220" // Set the desired height
       />
-      <div className="absolute z-[0] w-[100%] h-[90%] top-0 mt-10 skyblue__gradient"></div>
     </div>
   );
 }

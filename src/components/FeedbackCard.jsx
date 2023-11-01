@@ -15,7 +15,7 @@ const FeedbackCard = ({ link, name, affiliation, title, img }) => (
       <img
         src={img}
         alt={name}
-        className="w-[98px] h-[98px] rounded-full transform scale-100 hover:scale-110 transition-transform duration-300"
+        className="w-[150px] h-[150px] rounded-full transform scale-100 hover:scale-110 transition-transform duration-300"
       />
 
       <div className="flex flex-col justify-center ml-4 py-5 w-[200px] h-[100px]">

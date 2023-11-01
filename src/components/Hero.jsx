@@ -14,11 +14,11 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className={`flex md:flex-row flex-row m-10 ${styles.paddingY} pt-30`}
+      className={`flex md:flex-row flex-row m-10 ${styles.paddingY} `}
       style={heroImageStyle}
     >
       <div
-        className={`flex-1 ${styles.flexStart} flex-col justify-center xl:px-0 sm:px-16 px-6 text-center`}
+        className={`flex-1 ${styles.flexStart} flex-col justify-center xl:px-0 sm:px-16 px-6 text-center pt-[50px]`}
         style={{
           display: "flex",
           justifyContent: "center",

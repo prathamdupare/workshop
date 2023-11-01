@@ -6,13 +6,16 @@ import binance from "./binance.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import logo from "./logo1.png";
+import embo from "./embo.svg";
 import logoX from "./logo.png";
 import logoW from "./logoW.jpg";
 import logoM from "./logomain.jpg";
+import logo3 from "./logo3.png";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
+import iiserb from "./iiser.jpeg";
 import star from "./Star.svg";
 import menu from "./menu.svg";
 import hero from "./hero.png";
@@ -50,9 +53,12 @@ export {
   bill,
   hero,
   binance,
+  embo,
   coinbase,
+  iiserb,
   dropbox,
   logo,
+  logo3,
   quotes,
   robot,
   send,

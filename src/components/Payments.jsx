@@ -7,60 +7,80 @@ const Payments = () => {
     setShowSteps(!showSteps);
   };
   return (
-    <section id="registration">
+    <section id="registration" className="pt-[50px]">
       <div>
-        <div className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 text-white p-4 my-9 px-10 rounded-[20px] leading-9 shadow-lg pt-24">
+        <div className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 text-white p-4 my-9 px-10 rounded-[20px] leading-9 shadow-lg pt-[50px]">
           <h1 className="flex-1  text-white font-poppins font-semibold pb-5 ss:text-[42px] text-[32px]">
             Registration{" "}
             <br className="sm:block hidden ss:leading-[100px] leading-[75px]" />
           </h1>
 
           <div>
-            <h2 className="bg-blue-gradient w-60 text-50 p-3 my-3 rounded-[20px] text-center text-black ">
+            <h2 className="bg-blue-gradient w-60 text-50 p-3 my-3 rounded-[20px] text-center text-black  font-extrabold text-[25px]">
               Important Dates
             </h2>
             <ul>
               <li>
-                <span>Early registration deadline -</span>{" "}
-                <strong className="text-yellow-200">10th December 2023</strong>
+                <span className="font-extrabold text-[25px]">
+                  Early registration deadline -
+                </span>{" "}
+                <strong className="text-yellow-200 font-extrabold text-[25px]">
+                  10th December 2023
+                </strong>
               </li>
               <li>
-                <span>Late registration deadline -</span>{" "}
-                <strong className="text-yellow-200">20th December 2023</strong>
+                <span className="font-extrabold text-[25px]">
+                  Late registration deadline -
+                </span>{" "}
+                <strong className="text-yellow-200 font-extrabold text-[25px]">
+                  20th December 2023
+                </strong>
               </li>
               <li>
-                <span>Abstract submission deadline -</span>{" "}
-                <strong className="text-yellow-200">20th December 2023</strong>
+                <span className="font-extrabold text-[25px]">
+                  Abstract submission deadline -
+                </span>{" "}
+                <strong className="text-yellow-200 font-extrabold text-[25px]">
+                  20th December 2023
+                </strong>
               </li>
             </ul>
-            <p className="text-red-400">
+            <p className="text-red-400 font-extrabold text-[20px]">
               * Late registration will be charged with an extra fee of Rs. 500
             </p>
-            <h2 className="bg-blue-gradient w-60 text-50 p-3 my-3 rounded-[20px] text-center text-black ">
+            <h2 className="bg-blue-gradient w-60 w-[400px] text-50 p-3 my-3 rounded-[20px] text-center text-black font-extrabold text-[25px] ">
               Fees and Bank details
             </h2>
             <ul>
               <li>
-                <strong>Students - Rs. 2500</strong>
+                <strong className="font-extrabold text-[20px]">
+                  Students - Rs. 2500
+                </strong>
               </li>
               <li>
-                <strong>Postdoc - Rs. 3000</strong>
+                <strong className="font-extrabold text-[20px]">
+                  Postdoc - Rs. 3000
+                </strong>
               </li>
               <li>
-                <strong>Faculty - Rs. 5000</strong>
+                <strong className="font-extrabold text-[20px]">
+                  Faculty - Rs. 5000
+                </strong>
               </li>
               <li>
-                <strong>Industry - Rs. 7000</strong>
+                <strong className="font-extrabold text-[20px]">
+                  Industry - Rs. 7000
+                </strong>
               </li>
             </ul>
-            <p>
+            <p className="font-bold text-[20px]">
               The fee has to be paid through the SBI Collect Portal (
-              <a href="link-to-SBI-Collect-Portal">Click Here</a>).
+              <a href="https://www.onlinesbi.sbi/sbicollect/">Click Here</a>)
             </p>
             <div className="">
               <button
                 onClick={toggleSteps}
-                className="bg-white text-black font-bold py-2 px-4 rounded-[20px] m-2 transform hover:scale-105 transition-transform"
+                className="bg-white text-black font-bold py-2 px-4 rounded-[20px] m-2 transform hover:scale-105 transition-transform font-extrabold text-[20px]"
               >
                 {showSteps ? "Follow these Steps" : "Show Steps"}
               </button>
@@ -87,17 +107,14 @@ const Payments = () => {
                 </div>
               )}
             </div>{" "}
-            <p className="text-red-400">
+            <p className="text-red-400 font-extrabold text-[20px]">
               * Must upload the fee payment receipt as a PDF in the registration
               form
             </p>
-            <p className="text-red-400">
-              * No travel grant or a fee waiver is available
-            </p>
-            <h2 className="bg-blue-gradient w-60 text-50 p-3 my-3 rounded-[20px] text-center text-black ">
+            <h2 className="bg-blue-gradient w-60 text-50 p-3 my-3 rounded-[20px] text-center text-black font-extrabold text-[20px] ">
               Registration includes:
             </h2>
-            <ul className="list-disc">
+            <ul className="list-disc font-extrabold text-[18px]">
               <li>Registration Kit</li>
               <li>Accommodation</li>
               <li>
@@ -112,22 +129,21 @@ const Payments = () => {
           <Button />
         </div>
         <div className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 text-white p-10 my-9 rounded-[20px] shadow-lg leading-9 pt-24">
-          <h1 className="flex-1  text-white font-poppins font-semibold ss:text-[30px] text-[32px]">
+          <h1 className="flex-1  text-white font-poppins font-semibold ss:text-[30px] text-[32px] pb-6">
             Abstract Guidelines{" "}
-            <br className="sm:block hidden ss:leading-[100px] leading-[75px]" />
+            <br className="sm:block hidden ss:leading-[100px] leading-[75px] " />
           </h1>
           <div>
-            <h2 className="bg-white w-60 text-50 p-1 my-3 rounded-[20px] text-center text-black ">
-              Abstract Submission
-            </h2>
-            <p>
+            <p className="font-bold text-[18px] ">
               You can upload your abstract as a Word file in the registration
               form.
             </p>
 
-            <p>Title, Authors, Affiliations, & Abstract (500 words max)</p>
+            <p className="font-bold text-[18px] ">
+              Title, Authors, Affiliations, & Abstract (500 words max)
+            </p>
 
-            <ul className="list-disc">
+            <ul className="list-disc text-[18px] ">
               <li>Please select the mode of presentation (Talk/Poster/Both)</li>
               <li>
                 Selected talks from abstracts will be notified by email
@@ -140,25 +156,22 @@ const Payments = () => {
             </ul>
           </div>
 
-          <h1 className="flex-1  text-white font-poppins font-semibold ss:text-[30px] text-[32px]">
+          <h1 className="flex-1  text-white font-poppins pt-10 font-semibold ss:text-[30px] text-[32px]">
             Accommodation{" "}
             <br className="sm:block hidden ss:leading-[100px] leading-[75px]" />
           </h1>
 
-          <h2 className="bg-white w-60 text-50 p-1 my-3 rounded-[20px] text-center text-black ">
-            Accommodation Information
-          </h2>
-          <p>
+          <p className="text-[18px] ">
             Accommodation will be provided on a first-come-first basis until the
             rooms get occupied. Rooms will be provided at the Visitors Hostel or
             Students Hostel based on availability.
           </p>
-          <p>
-            <strong>
+          <ul className="list-disc text-[18px] ">
+            <li>
               Please select 'Yes' in the registration form if you need
               accommodation.
-            </strong>
-          </p>
+            </li>
+          </ul>
         </div>
       </div>
     </section>

@@ -120,6 +120,10 @@
   }
 }
 
+.scroll-padding {
+  scroll-padding-top: 200px; /* You can adjust the padding value as needed */
+}
+
 .feature-card:hover {
   background: var(--black-gradient);
   box-shadow: var(--card-shadow);

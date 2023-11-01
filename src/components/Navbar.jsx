@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 import styles from "../style";
 
-import { close, logo, menu } from "../assets";
+import { close, logo, menu, logo3, embo, iiserb } from "../assets";
 import { navLinks } from "../constants";
 
 const Navbar = () => {
@@ -30,15 +30,25 @@ const Navbar = () => {
       >
         {" "}
         <img
-          src={logo}
+          src={iiserb}
+          alt="hoobank"
+          className="w-[1blur navbar in tailwing50px] h-[80px]"
+        />
+        <img
+          src={logo3}
           alt="hoobank"
           className="w-[1blur navbar in tailwing50px] h-[120px]"
+        />
+        <img
+          src={embo}
+          alt="hoobank"
+          className="w-[1blur navbar in tailwing50px] h-[80px]"
         />
         <ul className="list-none sm:flex hidden justify-end items-center flex-1">
           {navLinks.map((nav, index) => (
             <li
               key={nav.id}
-              className={`font-poppins font-normal cursor-pointer text-[20px] font-extrabold hover:bg-gradient-to-r from-cyan-500 to-grey-50 p-2 rounded-[20px] text-black ${
+              className={`font-poppins font-normal cursor-pointer text-[22px] font-extrabold hover:bg-gradient-to-r from-cyan-500 to-grey-50 p-2 rounded-[20px] text-black ${
                 active === nav.title ? "text-white" : "text-dimWhite"
               } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
               onClick={() => setActive(nav.title)}
