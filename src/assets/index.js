@@ -5,7 +5,8 @@ import bill from "./bill.png";
 import binance from "./binance.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
-import logo from "./logo.svg";
+import logo from "./logo1.png";
+import logoX from "./logo.png";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import send from "./Send.svg";
@@ -66,6 +67,7 @@ export {
   linkedin,
   ashish,
   twitter,
+  logoX,
   people01,
   people02,
   people03,

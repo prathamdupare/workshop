@@ -1,6 +1,5 @@
 import styles from "../style";
-import { features } from "../constants";
-import { layout } from "../style";
+
 import { hero } from "../assets";
 
 const Hero = () => {
