@@ -5,7 +5,7 @@ class ConferenceSchedule extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      showDay1: true,
+      showDay1: false,
       showDay2: false,
     };
   }
