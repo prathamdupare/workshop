@@ -3,7 +3,7 @@ import styles, { layout } from "../style";
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div
-    className={`flex flex-start justify-items-start flex-row p-6 rounded-[20px] pt-30 ${
+    className={`flex  flex-start justify-items-start flex-row p-6 rounded-[20px] pt-30 ${
       index !== features.length - 1 ? "mb-6" : "mb-0"
     } feature-card `}
   >
@@ -65,8 +65,8 @@ export const About = () => {
           worth spending a day here.
         </p>
       </div>
-      <div className="flex flex-row ">
-        <div className={` pt-[80px] flex-col  justify-items-center`}>
+      <div className="flex flex-row">
+        <div className={` pt-[80px] flex-col  justify-items-center `}>
           {features.map((feature, index) => (
             <FeatureCard key={feature.id} {...feature} index={index} />
           ))}
