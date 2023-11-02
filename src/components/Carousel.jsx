@@ -28,15 +28,6 @@ function Carousell() {
         <div className="flex overflow-hidden">
           <img className="object-cover w-full " src={c3} alt="Image 3" />
         </div>
-        <div className="flex overflow-hidden">
-          <img className="object-cover w-full " src={c4} alt="Image 4" />
-        </div>
-        <div className="flex overflow-hidden">
-          <img className="object-cover w-full " src={c5} alt="Image 5" />
-        </div>
-        <div className="flex overflow-hidden">
-          <img className="object-cover w-full  " src={c6} alt="Image 6" />
-        </div>
       </Carousel>
       <p className="text-right text-white text-[10px]">
         Image Credit: Oihik Mitra{" "}

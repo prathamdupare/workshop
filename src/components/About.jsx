@@ -1,6 +1,10 @@
 import { features } from "../constants";
 import styles, { layout } from "../style";
 
+import { poster } from "../assets";
+
+import Button from "./Button";
+
 import Carousell from "./Carousel";
 
 const FeatureCard = ({ icon, title, content, index }) => (
@@ -68,19 +72,32 @@ export const About = () => {
           2008. The scenic beauty as well as the electric atmosphere of the
           campus hosting over 1700 students is indeed worth spending a day here.
         </p>
-      </div>
-      <div className="flex flex-row  justify-center mx-10">
-        <div
-          className={`pt-[80px] flex flex-col justify-center items-center mx-9 my-9 sm:m-0`}
-        >
-          <div className="flex flex-col justify-center max-w-[400px] mb-7">
-            {features.map((feature, index) => (
-              <FeatureCard key={feature.id} {...feature} index={index} />
-            ))}
-          </div>
 
-          <div className="max-w-[450px] mt-60 ">
-            <Carousell />
+        <div className="py-4 my-3 rounded px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none ${styles} transform hover:scale-105 transition-transform">
+          <a
+            href={poster}
+            download={poster}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button>Download Flyer</button>
+          </a>
+        </div>
+      </div>
+      <div className="flex items-center justify-center">
+        <div className="flex flex-row  justify-center mx-10">
+          <div
+            className={`pt-[80px] flex flex-col justify-center items-center mx-9 my-9 sm:m-0`}
+          >
+            <div className="flex flex-col justify-center max-w-[400px] mb-7">
+              {features.map((feature, index) => (
+                <FeatureCard key={feature.id} {...feature} index={index} />
+              ))}
+            </div>
+
+            <div className="max-w-[450px] mt-60 ">
+              <Carousell />
+            </div>
           </div>
         </div>
       </div>

@@ -30,6 +30,8 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import poster from "./Poster.png";
+
 import anjan from "./anjan.png"; // New image
 import ashveryalaxmi from "./ashveryalaxmi.png"; // New image
 import gabrielatoledoortiz from "./gabrielatoledoortiz.png"; // New image
@@ -77,6 +79,7 @@ export {
   arrowUp,
   discount,
   facebook,
+  poster,
   instagram,
   linkedin,
   ashish,

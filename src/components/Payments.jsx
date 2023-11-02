@@ -41,7 +41,7 @@ const Payments = () => {
                   Abstract submission deadline -
                 </span>{" "}
                 <strong className="text-yellow-200 font-extrabold text-[25px]">
-                  20th December 2023
+                  17th December 2023
                 </strong>
               </li>
             </ul>
