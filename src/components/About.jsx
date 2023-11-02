@@ -1,6 +1,8 @@
 import { features } from "../constants";
 import styles, { layout } from "../style";
 
+import Carousell from "./Carousel";
+
 const FeatureCard = ({ icon, title, content, index }) => (
   <div
     className={`flex  flex-start justify-items-start flex-row p-6 rounded-[20px] pt-30 ${
@@ -53,6 +55,11 @@ export const About = () => {
         </p>
 
         <h2 className={`pt-[50px] ${styles.heading2}`}>About IISER Bhopal</h2>
+
+        <div className="flex justify-center items-center py-5 max-w-[670px] ">
+          <Carousell />
+        </div>
+
         <p className={`${styles.paragraph} text-justify max-w-[670px] mt-5`}>
           Bhopal, geographically located in the centre of India known to be the
           Heart of India is an attraction to many scenic beauties and famous for

@@ -48,6 +48,12 @@ import vivekDogra from "./vivekDogra.png"; // New image
 import ashish from "./dr_aashish.png";
 import uthpal from "./uthpal.jpg";
 import shyam from "./shyam.jpg";
+import c1 from "./c1.jpg";
+import c2 from "./c2.jpg";
+import c3 from "./c3.jpg";
+import c4 from "./c4.jpg";
+import c5 from "./c5.jpg";
+import c6 from "./c6.jpg";
 export {
   airbnb,
   bill,
@@ -97,4 +103,10 @@ export {
   sreeramaiahgangappa,
   utehöcker,
   vivekDogra,
+  c1,
+  c2,
+  c3,
+  c4,
+  c5,
+  c6,
 };

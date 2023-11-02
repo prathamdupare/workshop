@@ -59,7 +59,7 @@ const Payments = () => {
               </li>
               <li>
                 <strong className="font-extrabold text-[20px]">
-                  Postdoc - Rs. 3000property and then use md:fl
+                  Postdoc - Rs. 3000{" "}
                 </strong>
               </li>
               <li>
