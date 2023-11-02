@@ -7,7 +7,6 @@ import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import logo from "./logo1.png";
 import embo from "./embo.svg";
-import logoX from "./logo.png";
 import logoW from "./logoW.jpg";
 import logoM from "./logomain.jpg";
 import logo3 from "./logo3.png";
@@ -82,7 +81,6 @@ export {
   linkedin,
   ashish,
   twitter,
-  logoX,
   logoW,
   people01,
   people02,
