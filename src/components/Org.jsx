@@ -8,6 +8,7 @@ const Testimonials = () => {
       id="organizers"
       className="flex flex-col  justify-center items-center relative pt-28 sm:flex-row"
     >
+      <div className="absolute z-[0] w-[60%] h-[60%] -left-[10%]  rounded-full blue__gradient"></div>
       <div className="flex flex-col items-center justify-center mr-20">
         <div className="">
           <h1 className={styles.heading2}>Organizers</h1>

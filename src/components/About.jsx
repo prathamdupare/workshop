@@ -28,6 +28,7 @@ export const About = () => {
     <section id="about" className={`${layout.section}`}>
       {" "}
       <div className={layout.sectionInfo}>
+        <div className="absolute z-[0] w-[30%] h-[60%] -left-[10%]  rounded-full blue__gradient"></div>
         <h2 className={`pt-[50px] ${styles.heading2}`}>About the Workshop</h2>
         <p className={`${styles.paragraph} text-justify max-w-[670px] mt-5`}>
           This unique meeting started in 2001 in USA as “The International
@@ -57,7 +58,7 @@ export const About = () => {
           Heart of India is an attraction to many scenic beauties and famous for
           its historical richness, handicrafts, and jewellery. It is also known
           as the City of the Lakes. The details can be found here.{" "}
-          <a className="text-blue-300" href="https://www.iiserb.ac.in/">
+          <a className="text-blue-300 " href="https://www.iiserb.ac.in/">
             IISER Bhopal{" "}
           </a>
           is one of the premiere institutes of India established in the year
