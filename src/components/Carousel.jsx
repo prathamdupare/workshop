@@ -39,7 +39,7 @@ function Carousell() {
         </div>
       </Carousel>
       <p className="text-right text-white text-[10px]">
-        image courtesy to Oihik Mitra{" "}
+        Image Credit: Oihik Mitra{" "}
       </p>
     </div>
   );

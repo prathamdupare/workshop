@@ -42,7 +42,32 @@ const Contact = () => {
         </div>
 
         <div className="flex flex-col items-center justify-center my-6 ">
-          <div className="flex-1 text-white font-poppins font-semibold ss:text-[20px] mb-4 text-[22px]">
+          <div className="bg-gradient-to-r from-white-500 to-black-500 p-4 rounded-lg shadow-lg my-5 max-w-screen-sm mx-auto">
+            <h2 className="text-white font-poppins font-semibold text-lg text-center mb-2">
+              How to Reach IISER Bhopal
+            </h2>
+
+            <ul className="text-white text-base text-left list-disc mb-2 pl-4">
+              <li>
+                For participants traveling directly from the ISPP meeting at
+                Bhubaneshwar, flights are available to Bhopal Raja Bhoj Airport
+                with a layover at Delhi/Mumbai. The total flight time is
+                approximately 5-6 hours.
+              </li>
+              <li>
+                IISER Bhopal is located within a distance of 10km from Bhopal
+                airport, with a travel time of 15 minutes.
+              </li>
+              <li>
+                Trains are also available to travel to Bhopal from across the
+                country. The three major railway stations to reach IISER Bhopal
+                are Bhopal Jn., Rani Kamlapati, and Sant Hirdaram Nagar. All
+                public modes of transport (Cab, Bus, Auto rickshaw) are
+                available to reach IISER Bhopal from these stations.
+              </li>
+            </ul>
+          </div>
+          <div className="flex-1 text-white font-poppins font-semibold ss:text-[20px] pb-3 text-[22px]">
             Map
           </div>
           <div className=" embed-responsive ">
@@ -57,6 +82,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <p className="text-right text-[5px]">haha</p>
     </section>
   );
 };

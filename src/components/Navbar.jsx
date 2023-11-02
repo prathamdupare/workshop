@@ -32,17 +32,17 @@ const Navbar = () => {
         <img
           src={iiserb}
           alt="hoobank"
-          className="w-[1blur navbar in tailwing50px] rounded-full h-[80px]"
+          className="w-[1blur navbar in tailwing50px] mr-4 rounded-full h-[70px]"
         />
         <img
           src={logo3}
           alt="hoobank"
-          className="w-[1blur navbar in tailwing50px] h-[80px]"
+          className="w-[1blur navbar in tailwing50px] mr-4 h-[100px]"
         />
         <img
           src={embo}
           alt="hoobank"
-          className="w-[1blur navbar in tailwing50px] h-[80px]"
+          className="w-[1blur navbar in tailwing50px] h-[70px]"
         />
         <ul className="list-none sm:flex hidden justify-end items-center flex-1">
           {navLinks.map((nav, index) => (

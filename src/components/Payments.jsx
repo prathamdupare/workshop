@@ -33,7 +33,7 @@ const Payments = () => {
                   Late registration deadline -
                 </span>{" "}
                 <strong className="text-yellow-200 font-extrabold text-[25px]">
-                  20th December 2023
+                  17th December 2023
                 </strong>
               </li>
               <li>
@@ -45,9 +45,6 @@ const Payments = () => {
                 </strong>
               </li>
             </ul>
-            <p className="text-red-400 font-extrabold text-[20px]">
-              * Late registration will be charged with an extra fee of Rs. 500
-            </p>
             <h2 className="bg-blue-gradient w-60 w-[250px] text-50 p-3 my-3 rounded-[20px]  text-black font-extrabold text-[20px] ">
               Fees and Bank details
             </h2>
@@ -73,6 +70,9 @@ const Payments = () => {
                 </strong>
               </li>
             </ul>
+            <p className="text-red-400 font-extrabold text-[20px]">
+              * Late registration will be charged with an extra fee of Rs. 500
+            </p>
             <p className="font-bold text-[20px]">
               The fee has to be paid through the SBI Collect Portal (
               <a href="https://www.onlinesbi.sbi/sbicollect/">Click Here</a>)
@@ -144,7 +144,7 @@ const Payments = () => {
             </p>
 
             <ul className="list-disc text-[18px] ">
-              <li>Please select the mode of presentation (Talk/Poster/Both)</li>
+              <li>Please select the mode of presentation (Talk/Poster)</li>
               <li>
                 Selected talks from abstracts will be notified by email
                 on/before December 25th, 2023. The remaining participants will

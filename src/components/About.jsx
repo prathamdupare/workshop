@@ -31,7 +31,7 @@ export const About = () => {
       {" "}
       <div className={layout.sectionInfo}>
         <div className="absolute z-[0] w-[30%] h-[60%] -left-[10%]  rounded-full blue__gradient"></div>
-        <h2 className={`pt-[50px] ${styles.heading2}`}>About the Workshop</h2>
+        <h2 className={`pt-[50px] ${styles.heading2}`}>About the Meeting</h2>
         <p className={`${styles.paragraph} text-justify max-w-[670px] mt-5`}>
           This unique meeting started in 2001 in USA as “The International
           Symposium on Plant Photobiology” and since then the organisation
@@ -56,10 +56,6 @@ export const About = () => {
 
         <h2 className={`pt-[50px] ${styles.heading2}`}>About IISER Bhopal</h2>
 
-        <div className="flex justify-center items-center py-5 max-w-[670px] ">
-          <Carousell />
-        </div>
-
         <p className={`${styles.paragraph} text-justify max-w-[670px] mt-5`}>
           Bhopal, geographically located in the centre of India known to be the
           Heart of India is an attraction to many scenic beauties and famous for
@@ -73,11 +69,19 @@ export const About = () => {
           campus hosting over 1700 students is indeed worth spending a day here.
         </p>
       </div>
-      <div className="flex flex-row">
-        <div className={` pt-[80px] flex-col  justify-items-center `}>
-          {features.map((feature, index) => (
-            <FeatureCard key={feature.id} {...feature} index={index} />
-          ))}
+      <div className="flex flex-row  justify-center mx-10">
+        <div
+          className={`pt-[80px] flex flex-col justify-center items-center mx-9 my-9 sm:m-0`}
+        >
+          <div className="flex flex-col justify-center max-w-[400px] mb-7">
+            {features.map((feature, index) => (
+              <FeatureCard key={feature.id} {...feature} index={index} />
+            ))}
+          </div>
+
+          <div className="max-w-[450px] mt-60 ">
+            <Carousell />
+          </div>
         </div>
       </div>
     </section>

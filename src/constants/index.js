@@ -32,11 +32,6 @@ import {
 
 export const navLinks = [
   {
-    id: "home",
-    title: "Home",
-  },
-
-  {
     id: "about",
     title: "About",
   },
@@ -80,7 +75,7 @@ export const features = [
     id: "deadline-2",
     icon: star,
     title: "Late Registration Deadline",
-    content: "20th December 2023",
+    content: "17th December 2023",
   },
   {
     id: "deadline-3",
