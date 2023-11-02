@@ -41,7 +41,7 @@ const Contact = () => {
           </h2>
         </div>
 
-        <div className="flex flex-col items-center justify-center my-6 hidden lg:flex md:flex">
+        <div className="flex flex-col items-center justify-center my-6 ">
           <div className="flex-1 text-white font-poppins font-semibold ss:text-[20px] mb-4 text-[22px]">
             Map
           </div>
@@ -62,3 +62,5 @@ const Contact = () => {
 };
 
 export default Contact;
+
+/*hidden lg:flex md:flex*/
