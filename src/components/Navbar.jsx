@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-10">
       <nav
-        className="w-full flex px-10 justify-between items-center navbar"
+        className="w-full flex px-10  gg justify-between items-center navbar"
         style={{
           backdropFilter: "blur(10px)",
           background: "linear-gradient(to right, skyblue, black)", // Black color
