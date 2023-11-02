@@ -48,7 +48,7 @@ const Payments = () => {
             <p className="text-red-400 font-extrabold text-[20px]">
               * Late registration will be charged with an extra fee of Rs. 500
             </p>
-            <h2 className="bg-blue-gradient w-60 w-[400px] text-50 p-3 my-3 rounded-[20px] text-center text-black font-extrabold text-[25px] sm: w-[280px]">
+            <h2 className="bg-blue-gradient w-60 w-[250px] text-50 p-3 my-3 rounded-[20px]  text-black font-extrabold text-[20px] ">
               Fees and Bank details
             </h2>
             <ul>
