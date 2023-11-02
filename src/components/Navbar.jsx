@@ -25,7 +25,7 @@ const Navbar = () => {
         className="w-full flex px-10 justify-between items-center navbar"
         style={{
           backdropFilter: "blur(10px)",
-          backgroundColor: "rgba(0, 0, 0, 1)", // Black color
+          background: "linear-gradient(to right, #94a3b8, #000000)", // Black color
         }}
       >
         {" "}
@@ -37,7 +37,7 @@ const Navbar = () => {
         <img
           src={logo3}
           alt="hoobank"
-          className="w-[1blur navbar in tailwing50px] mr-4 h-[100px]"
+          className="w-[1blur navbar in tailwing50px] rounded-full mr-4 my-2 h-[80px]"
         />
         <img
           src={embo}
