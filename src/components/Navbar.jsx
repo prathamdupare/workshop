@@ -32,7 +32,7 @@ const Navbar = () => {
         <img
           src={iiserb}
           alt="hoobank"
-          className="w-[1blur navbar in tailwing50px] h-[80px]"
+          className="w-[1blur navbar in tailwing50px] h-[120px]"
         />
         <img
           src={logo3}

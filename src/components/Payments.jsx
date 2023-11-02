@@ -48,7 +48,7 @@ const Payments = () => {
             <p className="text-red-400 font-extrabold text-[20px]">
               * Late registration will be charged with an extra fee of Rs. 500
             </p>
-            <h2 className="bg-blue-gradient w-60 w-[400px] text-50 p-3 my-3 rounded-[20px] text-center text-black font-extrabold text-[25px] ">
+            <h2 className="bg-blue-gradient w-60 w-[400px] text-50 p-3 my-3 rounded-[20px] text-center text-black font-extrabold text-[25px] sm: w-[280px]">
               Fees and Bank details
             </h2>
             <ul>
@@ -59,7 +59,7 @@ const Payments = () => {
               </li>
               <li>
                 <strong className="font-extrabold text-[20px]">
-                  Postdoc - Rs. 3000
+                  Postdoc - Rs. 3000property and then use md:fl
                 </strong>
               </li>
               <li>

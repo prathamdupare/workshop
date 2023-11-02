@@ -27,6 +27,7 @@ import {
   shyam,
   uthpal,
   kishoreCSPanigrahi,
+  raghavendra,
 } from "../assets";
 
 export const navLinks = [
@@ -102,7 +103,7 @@ export const feedback = [
     name: "AS Raghavendra",
     affiliation: "University of Hyderabad, INDIA",
     link: "http://sls.uohyd.ac.in/new/fac_details.php?fac_id=101",
-    img: people01,
+    img: raghavendra,
   },
   {
     id: "feedback-3",

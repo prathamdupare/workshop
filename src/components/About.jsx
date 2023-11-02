@@ -51,18 +51,18 @@ export const About = () => {
           optogenetic tools that use light to manipulate cellular signalling.
         </p>
 
-        <h2 className={`${styles.paragraph} text-justify max-w-[670px] mt-5`}>
-          About IISER Bhopal
-        </h2>
+        <h2 className={`pt-[50px] ${styles.heading2}`}>About IISER Bhopal</h2>
         <p className={`${styles.paragraph} text-justify max-w-[670px] mt-5`}>
           Bhopal, geographically located in the centre of India known to be the
           Heart of India is an attraction to many scenic beauties and famous for
           its historical richness, handicrafts, and jewellery. It is also known
-          as the City of the Lakes. The details can be found here . IISER Bhopal
+          as the City of the Lakes. The details can be found here.{" "}
+          <a className="text-blue-300" href="https://www.iiserb.ac.in/">
+            IISER Bhopal{" "}
+          </a>
           is one of the premiere institutes of India established in the year
-          2008 ( https://www.iiserb.ac.in). The scenic beauty as well as the
-          electric atmosphere of the campus hosting over 1700 students is indeed
-          worth spending a day here.
+          2008. The scenic beauty as well as the electric atmosphere of the
+          campus hosting over 1700 students is indeed worth spending a day here.
         </p>
       </div>
       <div className="flex flex-row">
