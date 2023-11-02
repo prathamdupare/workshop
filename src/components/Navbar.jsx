@@ -25,7 +25,7 @@ const Navbar = () => {
         className="w-full flex px-10 justify-between items-center navbar"
         style={{
           backdropFilter: "blur(10px)",
-          background: "linear-gradient(to right, #94a3b8, #000000)", // Black color
+          background: "linear-gradient(to right, skyblue, black)", // Black color
         }}
       >
         {" "}
