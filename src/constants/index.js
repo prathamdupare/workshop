@@ -81,7 +81,7 @@ export const features = [
     id: "deadline-3",
     icon: star,
     title: "Abstract Submission Deadline",
-    content: "20th December 2023",
+    content: "17th December 2023",
   },
 ];
 
