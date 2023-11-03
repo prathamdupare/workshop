@@ -37,25 +37,24 @@ export const About = () => {
         <div className="absolute z-[0] w-[30%] h-[60%] -left-[10%]  rounded-full blue__gradient"></div>
         <h2 className={`pt-[50px] ${styles.heading2}`}>About the Meeting</h2>
         <p className={`${styles.paragraph} text-justify max-w-[670px] mt-5`}>
-          This unique meeting started in 2001 in USA as “The International
-          Symposium on Plant Photobiology” and since then the organisation
-          responsibility circulates voluntarily between scientists from Asia,
-          the Americas and Europe every two years.
-        </p>
-
-        <p className={`${styles.paragraph} text-justify max-w-[670px] mt-5`}>
-          It is the single platform where plant photobiology leaders as well as
+          This is a satellite meeting to follow the “ International Symposium on
+          Plant Photobiology” meeting in January 2024 being hosted by IISER
+          Bhopal, INDIA. The ISPP meetings started in 2001 in USA and since then
+          the organisation responsibility circulates voluntarily between
+          scientists from Asia, the Americas and Europe every two years. It is
+          the single platform where plant photobiology leaders as well as
           upcoming talents across the globe gather on their own interest to
           share their latest mostly unpublished results and discuss future
           directions. This helps the community to exchange up-to-date techniques
           and approaches to address the different biological problems taken by
-          the different leading groups. This EMBO workshop on “current trends in
-          Photobiology” will bring together researchers from North and South
-          America, Europe and Asia to present their latest works on the role of
-          photoreceptors as thermo-sensors, how light-perception is linked to
-          plant competition, neighbour detection, nutritional uptake, flowering,
-          stress response, circadian clocks, and recent advances in new
-          optogenetic tools that use light to manipulate cellular signalling.
+          the different leading groups. This meeting will bring together
+          researchers from all over the globe to present their latest works on
+          various aspects of photobiology including plant photoreceptors, light
+          signaling, neighbour detection, flowering, circadian rhythms and
+          thermomorphogenesis. The meeting intends to provide a platform for
+          research scholars to interact with world leaders in the field of Plant
+          Photobiology, foster collaboration and exchange of research ideas
+          between national and international groups.{" "}
         </p>
 
         <h2 className={`pt-[50px] ${styles.heading2}`}>About IISER Bhopal</h2>
