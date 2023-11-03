@@ -118,8 +118,8 @@ const Payments = () => {
               <li>Registration Kit</li>
               <li>Accommodation</li>
               <li>
-                Food (Breakfast on Day 2, Lunch on Day 1 and Day 2, Gala Dinner
-                on Day 1, Tea/Coffee)
+                Food (Lunch and Dinner on Day 1, Breakfast and Lunch on Day 2,
+                Tea/Coffee)
               </li>
             </ul>
           </div>

@@ -37,7 +37,11 @@ const Hero = () => {
             <br className="sm:block hidden" />
           </h1>
           <h1 className="flex-1 text-white font-poppins font-semibold ss:text-[32px] text-[22px]">
-            15-16 JANUARY IISER BHOPAL, INDIA
+            15-16 JANUARY{" "}
+            <br className="sm:block hidden ss:leading-[100px] leading-[75px]" />
+          </h1>
+          <h1 className="flex-1 text-white font-poppins font-semibold ss:text-[32px] text-[22px]">
+            IISER BHOPAL, INDIA
             <br className="sm:block hidden ss:leading-[100px] leading-[75px]" />
           </h1>
         </div>

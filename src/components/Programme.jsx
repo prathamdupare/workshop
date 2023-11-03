@@ -141,7 +141,13 @@ class ConferenceSchedule extends Component {
                 <strong className="text-green-300">ST8</strong>
               </p>
               <p>
-                <strong>Scientific Games and Gala Dinner</strong>
+                <strong className="text-red-300"> Dinner</strong>
+              </p>
+
+              <p className="text-center">
+                <strong className="text-white italic">
+                  *The schedule is tentative and subject to change.
+                </strong>
               </p>
             </div>
           )}
