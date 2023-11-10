@@ -37,13 +37,13 @@ const Contact = () => {
           </div>
 
           <h2 className="text-white text-base font-extrabold text-center">
-            #ISPP24 #EMBOplantBio
+            #ISPP2024 #EMBOplantBio
           </h2>
         </div>
 
-        <div className="flex flex-col items-center justify-center my-6 ">
-          <div className="bg-gradient-to-r from-white-500 to-black-500 p-4 rounded-lg shadow-lg my-5 max-w-screen-sm mx-auto">
-            <h2 className="text-white font-poppins font-semibold text-lg text-center mb-2">
+        <div className="flex flex-col items-center justify-center my-6">
+          <div className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 text-white p-4 my-9 max-w-[800px] px-6 sm:px-10 rounded-[20px] leading-9 shadow-lg ]">
+            <h2 className="text-white font-poppins font-semibold text-lg text-center sm:text-2xl mb-2">
               How to Reach IISER Bhopal
             </h2>
 
@@ -67,12 +67,13 @@ const Contact = () => {
               </li>
             </ul>
           </div>
-          <div className="flex-1 text-white font-poppins font-semibold ss:text-[20px] pb-3 text-[22px]">
+
+          <div className="text-white font-poppins font-semibold text-[20px] sm:text-2xl pb-3">
             Map
           </div>
-          <div className=" embed-responsive ">
+          <div className="embed-responsive">
             <iframe
-              className="rounded-[20px] w-[800px] h-[400px] "
+              className="rounded-[20px] w-full sm:w-[800px] h-[400px]"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.8253874880093!2d77.27292731134152!3d23.285793578902524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c60d9f8872aef%3A0x9b99241b1431032!2sIISER%20BHOPAL!5e0!3m2!1sen!2sin!4v1698735037933!5m2!1sen!2sin"
               style={{ border: "0" }}
               allowfullscreen=""

@@ -75,7 +75,15 @@ const Payments = () => {
             </p>
             <p className="font-bold text-[20px]">
               The fee has to be paid through the SBI Collect Portal (
-              <a href="https://www.onlinesbi.sbi/sbicollect/">Click Here</a>)
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.onlinesbi.sbi/sbicollect/"
+                className="text-blue-300"
+              >
+                Click Here
+              </a>
+              )
             </p>
             <div className="">
               <button

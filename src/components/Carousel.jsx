@@ -18,7 +18,7 @@ import {
 function Carousell() {
   return (
     <div>
-      <Carousel autoPlay useKeyboardArrows infiniteLoop centerMode>
+      <Carousel autoPlay useKeyboardArrows infiniteLoop>
         <div className="flex overflow-hidden">
           <img className="object-cover w-full " src={c1} alt="Image 1" />
         </div>
@@ -29,7 +29,7 @@ function Carousell() {
           <img className="object-cover w-full " src={c3} alt="Image 3" />
         </div>
       </Carousel>
-      <p className="text-right text-white text-[10px]">
+      <p className="text-right text-white text-[12px]">
         Image Credit: Oihik Mitra{" "}
       </p>
     </div>

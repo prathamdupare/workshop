@@ -38,8 +38,8 @@ export const About = () => {
         <h2 className={`pt-[50px] ${styles.heading2}`}>About the Meeting</h2>
         <p className={`${styles.paragraph} text-justify max-w-[680px] mt-5`}>
           The EMBO-ISPP satellite meeting in January 2024 hosted by IISER Bhopal
-          , INDIA will follow the “ International Symposium on Plant
-          Photobiology”. The ISPP meetings started in 2001 in USA and since then
+          , INDIA will follow the “International Symposium on Plant
+          Photobiology”.The ISPP meetings started in 2001 in USA and since then
           the organisation responsibility circulates voluntarily between
           scientists from Asia, the Americas and Europe every two years. In this
           meeting plant photobiology leaders as well as upcoming talents across
@@ -62,8 +62,22 @@ export const About = () => {
           Bhopal, geographically located in the centre of India known to be the
           Heart of India is an attraction to many scenic beauties and famous for
           its historical richness, handicrafts, and jewellery. It is also known
-          as the City of the Lakes. The details can be found here.{" "}
-          <a className="text-blue-300 " href="https://www.iiserb.ac.in/">
+          as the City of the Lakes. The details can be found{" "}
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            className=" underline "
+            href="https://www.mptourism.com/destination-bhopal.php"
+          >
+            {" "}
+            here.
+          </a>{" "}
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-300 "
+            href="https://www.iiserb.ac.in/"
+          >
             IISER Bhopal{" "}
           </a>
           is one of the premiere institutes of India established in the year

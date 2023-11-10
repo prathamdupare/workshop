@@ -40,13 +40,13 @@ class ConferenceSchedule extends Component {
             <div className="mt-4 leading-9 transition-all duration-500">
               <h2 className="text-2xl mb-2">Day 1: 15 January 2024</h2>
               <p>
-                <strong className="text-white">8:30-9:15 </strong>
+                <strong className="text-white">8:30-9:00 </strong>
                 <strong className="text-sky-300">
                   Registration and Kit distribution
                 </strong>{" "}
               </p>
               <p>
-                <strong className="text-white">09:15-9:45 </strong>
+                <strong className="text-white">09:00-9:15 </strong>
                 <strong className="text-yellow-300">Inauguration</strong>
               </p>
               <p>
@@ -55,46 +55,53 @@ class ConferenceSchedule extends Component {
                 </strong>
               </p>
               <p>
-                <strong className="text-white">9:45-10:10</strong>{" "}
+                <strong className="text-white">9:15-09:40</strong>{" "}
                 <strong className="text-blue-300">Liam Dolan</strong>
               </p>
+
               <p>
-                <strong className="text-white">10:10-10:35</strong>{" "}
+                <strong className="text-white">9:40-10:05</strong>{" "}
                 <strong className="text-blue-300">Anjan Banerjee</strong>
               </p>
               <p>
-                <strong className="text-white">10:35-10:50</strong>{" "}
+                <strong className="text-white">10:05-10:20</strong>{" "}
                 <strong className="text-green-300">ST1</strong>
               </p>
               <p>
-                <strong className="text-white">10:50-11:05</strong>{" "}
+                <strong className="text-white">10:20-10:35</strong>{" "}
                 <strong className="text-green-300">ST2</strong>
               </p>
               <p>
                 <strong className="text-red-300">
-                  11:05-11:30 Coffee Break 1
+                  10:35-11:00 Coffee Break 1
                 </strong>
               </p>
               <p>
-                <strong className="text-white">11:30-11:55</strong>{" "}
+                <strong className="text-white">11:00-11:25</strong>{" "}
                 <strong className="text-blue-300">Ute Hoecker</strong>
               </p>
               <p>
-                <strong className="text-white">11:55-12:20</strong>{" "}
-                <strong className="text-blue-300">Sreeram Gangappa</strong>
+                <strong className="text-white">11:25-11:50</strong>{" "}
+                <strong className="text-blue-300">
+                  Sreeramaiah N. Gangappa
+                </strong>
               </p>
               <p>
-                <strong className="text-white">12:20-12:35</strong>{" "}
+                <strong className="text-white">11:50-12:15</strong>{" "}
+                <strong className="text-blue-300">Aashish Ranjan</strong>
+              </p>
+              <p>
+                <strong className="text-white">12:15-12:30</strong>{" "}
                 <strong className="text-green-300">ST3</strong>
               </p>
               <p>
-                <strong className="text-white">12:35-12:50</strong>{" "}
+                <strong className="text-white">12:30-12:45</strong>{" "}
                 <strong className="text-green-300">ST4</strong>
               </p>
               <p>
                 <strong>
                   <strong className="text-red-300">
-                    13:00-15:00 Lunch 1/Group Photo and poster session
+                    12:45-14:45 Lunch 1/Group Photo and poster session
                   </strong>
                 </strong>
               </p>
@@ -104,50 +111,44 @@ class ConferenceSchedule extends Component {
                 </strong>
               </p>
               <p>
-                <strong className="text-white">15:00-15:25</strong>{" "}
+                <strong className="text-white">14:45-15:10</strong>{" "}
                 <strong className="text-blue-300">Ashverya Laxmi</strong>
               </p>
               <p>
-                <strong className="text-white">15:25-15:50</strong>{" "}
+                <strong className="text-white">15:10-15:35</strong>{" "}
                 <strong className="text-blue-300">Kalika Prasad</strong>
               </p>
               <p>
-                <strong className="text-white">15:50-16:05</strong>{" "}
+                <strong className="text-white">15:35-15:50</strong>{" "}
                 <strong className="text-green-300">ST5</strong>
               </p>
               <p>
-                <strong className="text-white">16:05-16:20</strong>{" "}
+                <strong className="text-white">15:50-16:05</strong>{" "}
                 <strong className="text-green-300">ST6</strong>
               </p>
               <p>
                 <strong className="text-red-300">
-                  16:20-16:45 Coffee Break 2/ Snacks
+                  16:05-16:30 Coffee Break 2/ Snacks
                 </strong>
               </p>
               <p>
-                <strong className="text-white">16:45-17:10</strong>{" "}
+                <strong className="text-white">16:30-16:55</strong>{" "}
                 <strong className="text-blue-300">Utpal Nath</strong>
               </p>
               <p>
-                <strong className="text-white">17:10-17:35</strong>{" "}
+                <strong className="text-white">16:55-17:20</strong>{" "}
                 <strong className="text-blue-300">Santosh Satbhai</strong>
               </p>
               <p>
-                <strong className="text-white">17:35-17:50</strong>{" "}
+                <strong className="text-white">17:20-17:35</strong>{" "}
                 <strong className="text-green-300">ST7</strong>
               </p>
               <p>
-                <strong className="text-white">17:50-18:05</strong>{" "}
+                <strong className="text-white">17:35-17:50</strong>{" "}
                 <strong className="text-green-300">ST8</strong>
               </p>
               <p>
-                <strong className="text-red-300"> Dinner</strong>
-              </p>
-
-              <p className="text-center">
-                <strong className="text-white italic">
-                  *The schedule is tentative and subject to change.
-                </strong>
+                <strong className="text-red-300">Dinner</strong>
               </p>
             </div>
           )}
@@ -161,55 +162,60 @@ class ConferenceSchedule extends Component {
                 </strong>
               </p>
               <p>
-                <strong className="text-white">09:30-09:55</strong>{" "}
-                <strong className="text-blue-300">Elena Monte</strong>
-              </p>
-              <p>
-                <strong className="text-white">9:55-10:20</strong>{" "}
-                <strong className="text-blue-300">A S Raghavendra</strong>
-              </p>
-              <p>
-                <strong className="text-white">10:20-10:35</strong>{" "}
-                <strong className="text-green-300">ST9</strong>
-              </p>
-              <p>
-                <strong className="text-white">10:35-10:50</strong>{" "}
-                <strong className="text-green-300">ST10</strong>
-              </p>
-              <p>
-                <strong className="text-red-300">Coffee Break 3/ Snacks</strong>
-              </p>
-              <p>
-                <strong className="text-white">11:15-11:40</strong>{" "}
-                <strong className="text-blue-300">Meng Chen</strong>
-              </p>
-              <p>
-                <strong className="text-white">11:40-12:05</strong>{" "}
+                <strong className="text-white">09:15-09:40</strong>{" "}
                 <strong className="text-blue-300">Gabriela Toledo-Ortiz</strong>
               </p>
               <p>
-                <strong className="text-white">12:05-12:30</strong>{" "}
+                <strong className="text-white">09:40-10:05</strong>{" "}
+                <strong className="text-blue-300">A S Raghavendra</strong>
+              </p>
+
+              <p>
+                <strong className="text-white">10:05-10:30</strong>{" "}
+                <strong className="text-blue-300">Shyam Masakapalli</strong>
+              </p>
+
+              <p>
+                <strong className="text-white">10:30-10:45</strong>{" "}
+                <strong className="text-green-300">ST9</strong>
+              </p>
+              <p>
+                <strong className="text-white">10:45-11:00</strong>{" "}
+                <strong className="text-green-300">ST10</strong>
+              </p>
+              <p>
+                <strong className="text-white">11:00-11:20</strong>{" "}
+                <strong className="text-red-300">Coffee Break 3/ Snacks</strong>
+              </p>
+              <p>
+                <strong className="text-white">11:20-11:45</strong>{" "}
+                <strong className="text-blue-300">Meng Chen</strong>
+              </p>
+              <p>
+                <strong className="text-white">11:45-12:10</strong>{" "}
+                <strong className="text-blue-300">Elena Monte</strong>
+              </p>
+
+              <p>
+                <strong className="text-white">12:10-12:35</strong>{" "}
                 <strong className="text-blue-300">Vivek Dogra</strong>
               </p>
               <p>
-                <strong className="text-white">12:30-12:45</strong>{" "}
+                <strong className="text-white">12:35-12:50</strong>{" "}
                 <strong className="text-green-300">ST11</strong>
               </p>
               <p>
-                <strong className="text-white">12:45-1:00</strong>{" "}
+                <strong className="text-white">12:50-13:05</strong>{" "}
                 <strong className="text-green-300">ST12</strong>
               </p>
               <p>
-                <strong>
-                  <strong className="text-red-300">
-                    13:00-16:00 Lunch 2 and poster
-                  </strong>
-                </strong>
+                <strong className="text-white">13:05-13:15</strong>{" "}
+                <strong className="text-green-300">Concluding remarks</strong>
               </p>
               <p>
                 <strong>
                   <strong className="text-red-300">
-                    19:00-21:30 Dinner on your own
+                    13:15-16:00 Lunch 2 and poster
                   </strong>
                 </strong>
               </p>

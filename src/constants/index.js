@@ -165,7 +165,7 @@ export const feedback = [
   },
   {
     id: "feedback-12",
-    name: "Sreeramaiah Gangappa",
+    name: "Sreeramaiah N. Gangappa",
     affiliation: "IISER Kolkata, INDIA",
     link: "https://www.iiserkol.ac.in/web/en/people/faculty/dbs/ngsreeram/#gsc.tab=0",
     img: sreeramaiahgangappa,
@@ -177,7 +177,7 @@ export const feedback2 = [
     id: "feedback-13",
     name: "Ute Hocker",
     affiliation: "CEPLAS, Germany",
-    link: "https://www.ceplas.eu/en/research/prof-dr-u09 – 12 January 2024 | Bhubaneswar, Odisha, Indiate-hoecker",
+    link: "https://www.ceplas.eu/en/research/prof-dr-ute-hoecker",
     img: utehöcker,
   },
   {
