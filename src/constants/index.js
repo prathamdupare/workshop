@@ -58,10 +58,6 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
-  {
-    id: "sponsors",
-    title: "Sponsors",
-  },
 ];
 
 export const features = [
