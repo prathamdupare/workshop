@@ -1,8 +1,6 @@
 import { useState, useEffect } from "react";
 
-import styles from "../style";
-
-import { close, logo, menu, logo3, embo, iiserb } from "../assets";
+import { close, menu, logo3, embo, iiserb } from "../assets";
 import { navLinks } from "../constants";
 
 const Navbar = () => {
@@ -22,7 +20,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-10">
       <nav
-        className="w-full flex px-10  gg justify-between items-center navbar"
+        className="w-full flex px-10 justify-between items-center navbar"
         style={{
           backdropFilter: "blur(10px)",
           background: "linear-gradient(to right, skyblue, black)", // Black color
@@ -44,7 +42,7 @@ const Navbar = () => {
           alt="hoobank"
           className="w-[1blur navbar in tailwing50px] h-[70px]"
         />
-        <ul className="list-none sm:flex hidden justify-end items-center flex-1">
+        <ul className="list-none xl:flex hidden justify-end items-center flex-1">
           {navLinks.map((nav, index) => (
             <li
               key={nav.id}
@@ -57,7 +55,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <div className="sm:hidden flex flex-1 justify-end items-center">
+        <div className=" flex flex-1 xl:hidden justify-end items-center">
           <img
             src={toggle ? close : menu}
             alt="menu"

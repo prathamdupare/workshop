@@ -170,9 +170,9 @@ const Payments = () => {
           </h1>
 
           <p className="text-[18px] ">
-            Accommodation will be provided on a first-come-first basis until the
-            rooms get occupied. Rooms will be provided at the Visitors Hostel or
-            Students Hostel based on availability.
+            Accommodation will be provided on a first-come-first serve basis
+            until the rooms get occupied. Rooms will be provided at the Visitors
+            Hostel or Students Hostel based on availability.
           </p>
           <ul className="list-disc text-[18px] ">
             <li>

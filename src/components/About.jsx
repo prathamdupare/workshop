@@ -39,10 +39,10 @@ export const About = () => {
         <p className={`${styles.paragraph} text-justify max-w-[680px] mt-5`}>
           The EMBO-ISPP satellite meeting in January 2024 hosted by IISER Bhopal
           , INDIA will follow the “International Symposium on Plant
-          Photobiology”.The ISPP meetings started in 2001 in USA and since then
+          Photobiology”. The ISPP meetings started in 2001 in USA and since then
           the organisation responsibility circulates voluntarily between
           scientists from Asia, the Americas and Europe every two years. In this
-          meeting plant photobiology leaders as well as upcoming talents across
+          meeting, plant photobiology leaders as well as upcoming talents across
           the globe gather to share their latest mostly unpublished results and
           discuss future directions. This helps the community to exchange ideas
           and approaches to address different biological problems related to
