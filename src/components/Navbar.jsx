@@ -42,7 +42,7 @@ const Navbar = () => {
           alt="hoobank"
           className="w-[1blur navbar in tailwing50px] h-[70px]"
         />
-        <ul className="list-none lg:flex hidden justify-end items-center flex-1">
+        <ul className="list-none xl:flex hidden justify-end items-center flex-1">
           {navLinks.map((nav, index) => (
             <li
               key={nav.id}
