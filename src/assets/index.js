@@ -24,6 +24,8 @@ import apple from "./apple.svg";
 import arrowUp from "./arrow-up.svg";
 import discount from "./Discount.svg";
 import facebook from "./facebook.svg";
+import chandansahi from "./chandansahi.png";
+
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
@@ -66,6 +68,7 @@ export {
   dropbox,
   logo,
   logo3,
+  chandansahi,
   quotes,
   robot,
   send,

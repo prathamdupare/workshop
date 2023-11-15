@@ -11,7 +11,7 @@ const Testimonials = () => {
       <div className="absolute z-[0] w-[60%] h-[60%] -left-[10%]  rounded-full blue__gradient"></div>
       <div className="flex flex-col items-center justify-center mr-20">
         <div className="">
-          <h1 className={styles.heading2}>Organizers</h1>
+          <h1 className={styles.heading2}>Organizing Committee</h1>
           <div className="w-full md:mt-0 mt-6"></div>
         </div>
 

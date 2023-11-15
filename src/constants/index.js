@@ -28,6 +28,7 @@ import {
   uthpal,
   kishoreCSPanigrahi,
   raghavendra,
+  chandansahi,
 } from "../assets";
 
 export const navLinks = [
@@ -202,8 +203,14 @@ export const organizers = [
   {
     id: "feedback-1",
     name: "Kishore Panigrahi",
-    title: "Co-Organizer,       NISER Bhubaneswar, INDIA ",
+    title: "NISER Bhubaneswar, INDIA ",
     img: kishoreCSPanigrahi,
+  },
+  {
+    id: "feedback-1",
+    name: "Chandan Sahi",
+    title: "IISER Bhopal, INDIA",
+    img: chandansahi,
   },
 ];
 
