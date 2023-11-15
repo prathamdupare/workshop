@@ -197,7 +197,7 @@ export const organizers = [
   {
     id: "feedback-1",
     name: "Sourav Datta",
-    title: "IISER Bhopal, INDIA (sdatta@iiserb.ac.in)",
+    title: "IISER Bhopal, INDIA",
     img: souravdatta,
   },
   {
