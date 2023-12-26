@@ -70,9 +70,6 @@ const Payments = () => {
                 </strong>
               </li>
             </ul>
-            <p className="text-red-400 font-extrabold text-[20px]">
-              * Late registration will be charged with an extra fee of Rs. 500
-            </p>
             <p className="font-bold text-[20px]">
               The fee has to be paid through the SBI Collect Portal (
               <a
