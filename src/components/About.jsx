@@ -7,10 +7,10 @@ import Button from "./Button";
 
 import Carousell from "./Carousel";
 
-const FeatureCard = ({ icon, title, content, index }) => (
+const FeatureCard = ({ icon, title, content, index, totalFeatures }) => (
   <div
-    className={`flex  flex-start justify-items-start flex-row p-6 rounded-[20px] pt-30 ${
-      index !== features.length - 1 ? "mb-6" : "mb-0"
+    className={`flex flex-start justify-items-start flex-row p-6 rounded-[20px] pt-30 ${
+      index !== totalFeatures - 3 ? "mb-6" : "mb-6 bg-sky-500 text-black-100"
     } feature-card `}
   >
     <div
@@ -35,7 +35,9 @@ export const About = () => {
       {" "}
       <div className={layout.sectionInfo}>
         <div className="absolute z-[0] w-[30%] h-[60%] -left-[10%]  rounded-full blue__gradient"></div>
-        <h2 className={`pt-[50px] ${styles.heading2}`}>About the Meeting</h2>
+        <h2 className={`pt-[0px] pb-[20px] ${styles.heading2}`}>
+          About the Meeting
+        </h2>
         <p className={`${styles.paragraph} text-justify max-w-[680px] mt-5`}>
           The EMBO-ISPP satellite meeting in January 2024 hosted by IISER Bhopal
           , INDIA will follow the “International Symposium on Plant
@@ -96,14 +98,19 @@ export const About = () => {
           </a>
         </div>
       </div>
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center  my-8 ">
         <div className="flex flex-row  justify-center mx-10">
           <div
             className={`pt-[80px] flex flex-col justify-center items-center mx-9 my-9 sm:m-0`}
           >
             <div className="flex flex-col justify-center max-w-[400px] mb-7">
               {features.map((feature, index) => (
-                <FeatureCard key={feature.id} {...feature} index={index} />
+                <FeatureCard
+                  key={feature.id}
+                  {...feature}
+                  index={index}
+                  totalFeatures={features.length}
+                />
               ))}
             </div>
 

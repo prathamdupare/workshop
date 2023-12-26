@@ -12,6 +12,7 @@ import Payments from "./components/Payments";
 import Contact from "./components/Contact";
 
 import ExtraSpeakers from "./components/ExtraSpeakers";
+import Sponsors from "./components/Sponsors";
 
 const App = () => {
   return (
@@ -33,6 +34,7 @@ const App = () => {
             <Payments />
             <Org />
             <Contact />
+            <Sponsors />
             <Footer />
           </div>
         </div>

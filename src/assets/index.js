@@ -57,6 +57,8 @@ import c3 from "./c3.jpg";
 import c4 from "./c4.jpg";
 import c5 from "./c5.jpg";
 import c6 from "./c6.jpg";
+
+import accumax from "./accumax.png";
 export {
   airbnb,
   bill,
@@ -102,6 +104,7 @@ export {
   liamdolan,
   mengchen,
   raghavendra,
+  accumax,
   santoshSatbhai,
   souravdatta,
   sreeramaiahgangappa,

@@ -25,6 +25,7 @@ import {
   souravdatta,
   ashish,
   shyam,
+  accumax,
   uthpal,
   kishoreCSPanigrahi,
   raghavendra,
@@ -63,10 +64,10 @@ export const navLinks = [
 
 export const features = [
   {
-    id: "deadline-1",
-    icon: star, // You can use an appropriate icon name or path here
-    title: "Early registration deadline",
-    content: "10th December 2023",
+    id: "deadline-3",
+    icon: star,
+    title: "Early Registration Deadline extended to 15 December 2023",
+    content: "",
   },
   {
     id: "deadline-2",
@@ -211,6 +212,15 @@ export const organizers = [
     name: "Chandan Sahi",
     title: "IISER Bhopal, INDIA",
     img: chandansahi,
+  },
+];
+
+export const sponsors = [
+  {
+    id: "feedback-1",
+    name: "Accumax",
+    title: "",
+    img: accumax,
   },
 ];
 
