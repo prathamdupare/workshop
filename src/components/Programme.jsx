@@ -65,10 +65,10 @@ class ConferenceSchedule extends Component {
 
               <p>
                 <strong className="text-white">9:40-10:05</strong>{" "}
-                <strong className="text-green-300">Anjan Banerjee</strong>
+                <strong className="text-green-300">Ute Hoecker</strong>
                 <strong className="text-blue-300">
-                  - Photoperiods rule them all: Mobile Macromolecules and
-                  epigenetic dynamics in potato development{" "}
+                  - Evolution of light signaling in the moss Physcomitrium
+                  patens
                 </strong>
               </p>
               <p>
@@ -97,10 +97,10 @@ class ConferenceSchedule extends Component {
               </p>
               <p>
                 <strong className="text-white">11:00-11:25</strong>{" "}
-                <strong className="text-green-300">Ute Hoecker</strong>
+                <strong className="text-green-300">Anjan Banerjee</strong>
                 <strong className="text-blue-300">
-                  - Evolution of light signaling in the moss Physcomitrium
-                  patens
+                  - Photoperiods rule them all: Mobile Macromolecules and
+                  epigenetic dynamics in potato development{" "}
                 </strong>
               </p>
               <p>

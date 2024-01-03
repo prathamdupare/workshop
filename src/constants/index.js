@@ -22,6 +22,7 @@ import {
   vivekDogra,
   people04,
   mengchen,
+  iiserb,
   souravdatta,
   ashish,
   shyam,
@@ -254,6 +255,12 @@ export const sponsors = [
     id: "feedback-1",
     name: "",
     title: "",
+    img: iiserb,
+  },
+  {
+    id: "feedback-1",
+    name: "",
+    title: "",
     img: sp4,
   },
   {
@@ -323,7 +330,6 @@ export const sponsors = [
     title: "",
     img: sp15,
   },
-  
 ];
 
 export const coorganizers = [
