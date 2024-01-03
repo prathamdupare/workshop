@@ -35,6 +35,7 @@ import sp13 from "./sp13.png";
 import sp14 from "./sp14.png";
 import sp15 from "./sp15.png";
 import sp16 from "./sp16.png";
+import sp17 from "./sp17.png";
 import google from "./google.svg";
 import apple from "./apple.svg";
 import arrowUp from "./arrow-up.svg";
@@ -148,4 +149,5 @@ export {
   sp14,
   sp15,
   sp16,
+  sp17,
 };

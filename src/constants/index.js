@@ -47,6 +47,7 @@ import {
   sp14,
   sp15,
   sp16,
+  sp17,
 } from "../assets";
 
 export const navLinks = [
@@ -329,6 +330,12 @@ export const sponsors = [
     name: "",
     title: "",
     img: sp15,
+  },
+  {
+    id: "feedback-1",
+    name: "",
+    title: "",
+    img: sp17,
   },
 ];
 

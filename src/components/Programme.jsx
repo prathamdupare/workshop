@@ -97,10 +97,9 @@ class ConferenceSchedule extends Component {
               </p>
               <p>
                 <strong className="text-white">11:00-11:25</strong>{" "}
-                <strong className="text-green-300">Anjan Banerjee</strong>
+                <strong className="text-green-300">Kalika Prasad</strong>
                 <strong className="text-blue-300">
-                  - Photoperiods rule them all: Mobile Macromolecules and
-                  epigenetic dynamics in potato development{" "}
+                  - Rhythm for reunion between physically disconnected tissues
                 </strong>
               </p>
               <p>
@@ -160,9 +159,10 @@ class ConferenceSchedule extends Component {
               </p>
               <p>
                 <strong className="text-white">15:10-15:35</strong>{" "}
-                <strong className="text-green-300">Kalika Prasad</strong>
+                <strong className="text-green-300">Anjan Banerjee</strong>
                 <strong className="text-blue-300">
-                  - Rhythm for reunion between physically disconnected tissues
+                  - Photoperiods rule them all: Mobile Macromolecules and
+                  epigenetic dynamics in potato development{" "}
                 </strong>
               </p>
               <p>
