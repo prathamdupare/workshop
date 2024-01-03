@@ -25,7 +25,7 @@ const Payments = () => {
                   Early registration deadline -
                 </span>{" "}
                 <strong className="text-yellow-200 font-extrabold text-[25px]">
-                  10th December 2023
+                  15th December 2023
                 </strong>
               </li>
               <li>
@@ -33,7 +33,7 @@ const Payments = () => {
                   Late registration deadline -
                 </span>{" "}
                 <strong className="text-yellow-200 font-extrabold text-[25px]">
-                  17th December 2023
+                  20th December 2023
                 </strong>
               </li>
               <li>
@@ -41,7 +41,7 @@ const Payments = () => {
                   Abstract submission deadline -
                 </span>{" "}
                 <strong className="text-yellow-200 font-extrabold text-[25px]">
-                  17th December 2023
+                  20th December 2023
                 </strong>
               </li>
             </ul>
@@ -151,12 +151,12 @@ const Payments = () => {
             <ul className="list-disc text-[18px] ">
               <li>Please select the mode of presentation (Talk/Poster)</li>
               <li>
-                Selected talks from abstracts will be notified by email
-                on/before December 25th, 2023. The remaining participants will
-                be provided with a poster presentation.
+                Selected talks from abstracts will be notified by email. The
+                remaining participants will be provided with a poster
+                presentation.
               </li>
               <li>
-                Poster size: 90 cm x 120 cm (4 feet x 3 feet) (length x width)
+                Poster size: 120 cm x 90 cm (4 feet x 3 feet) (length x width)
               </li>
             </ul>
           </div>
@@ -166,15 +166,17 @@ const Payments = () => {
             <br className="sm:block hidden ss:leading-[100px] leading-[75px]" />
           </h1>
 
-          <p className="text-[18px] ">
-            Accommodation will be provided on a first-come-first serve basis
-            until the rooms get occupied. Rooms will be provided at the Visitors
-            Hostel or Students Hostel based on availability.
-          </p>
           <ul className="list-disc text-[18px] ">
             <li>
-              Please select 'Yes' in the registration form if you need
-              accommodation.
+              <li className="text-[18px] ">
+                Accommodation will be provided on a first-come-first serve basis
+                until the rooms get occupied. Rooms will be provided at the
+                Visitors Hostel or Students Hostel based on availability.
+              </li>
+              <li>
+                Please select 'Yes' in the registration form if you need
+                accommodation.
+              </li>
             </li>
           </ul>
         </div>

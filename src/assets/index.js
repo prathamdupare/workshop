@@ -19,6 +19,22 @@ import star from "./Star.svg";
 import menu from "./menu.svg";
 import hero from "./hero.png";
 import close from "./close.svg";
+import sp1 from "./sp1.png";
+import sp2 from "./sp2.png";
+import sp3 from "./sp3.png";
+import sp4 from "./sp4.png";
+import sp5 from "./sp5.png";
+import sp6 from "./sp6.png";
+import sp7 from "./sp7.png";
+import sp8 from "./sp8.png";
+import sp9 from "./sp9.png";
+import sp10 from "./sp10.png";
+import sp11 from "./sp11.png";
+import sp12 from "./sp12.png";
+import sp13 from "./sp13.png";
+import sp14 from "./sp14.png";
+import sp15 from "./sp15.png";
+import sp16 from "./sp16.png";
 import google from "./google.svg";
 import apple from "./apple.svg";
 import arrowUp from "./arrow-up.svg";
@@ -116,4 +132,20 @@ export {
   c4,
   c5,
   c6,
+  sp1,
+  sp2,
+  sp3,
+  sp4,
+  sp5,
+  sp6,
+  sp7,
+  sp8,
+  sp9,
+  sp10,
+  sp11,
+  sp12,
+  sp13,
+  sp14,
+  sp15,
+  sp16,
 };

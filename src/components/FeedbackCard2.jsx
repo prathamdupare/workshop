@@ -17,7 +17,7 @@ const FeedbackCard2 = ({ link, name, affiliation, title, img }) => (
         alt={name}
         className="w-[200px] transform scale-100 hover:scale-110 transition-transform duration-300"
       />
-
+      {/*
       <div className="flex flex-col justify-center ml-4 py-5 w-[200px] h-[100px]">
         <h4 className="font-poppins font-semibold text-[20px] leading-[32px] pt-5 text-white">
           {name}
@@ -28,7 +28,8 @@ const FeedbackCard2 = ({ link, name, affiliation, title, img }) => (
         <p className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite">
           {affiliation}
         </p>
-      </div>
+      </div>{" "}
+      */}
     </div>
   </a>
 );

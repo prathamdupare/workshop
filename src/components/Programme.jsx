@@ -175,7 +175,7 @@ class ConferenceSchedule extends Component {
               </p>
               <p>
                 <strong className="text-white">15:50-16:05</strong>{" "}
-                <strong className="text-green-300">ST6</strong>
+                <strong className="text-green-300">Aniruddha P Sane</strong>
                 <strong className="text-blue-300">
                   - SlERF36/AtERF3-mediated regulation of the GA pathway
                   controls developmental transitions in plants
@@ -214,7 +214,8 @@ class ConferenceSchedule extends Component {
                 <strong className="text-green-300">Ajar Anupam Pradhan</strong>
                 <strong className="text-blue-300">
                   - Characterization of a light regulated Multidrug and Toxic
-                  Efflux transporter
+                  Efflux transporter modulating root development under low
+                  phosphate{" "}
                 </strong>
               </p>
               <p>
@@ -252,7 +253,7 @@ class ConferenceSchedule extends Component {
 
               <p>
                 <strong className="text-white">10:05-10:30</strong>{" "}
-                <strong className="text-green-300">Shyam Masakapalli</strong>
+                <strong className="text-green-300">Shyam K. Masakapalli</strong>
                 <strong className="text-blue-300">
                   - Deciphering the plant metabolic phenotypes under varying
                   light regimes using metabolomics and fluxomics
@@ -315,7 +316,7 @@ class ConferenceSchedule extends Component {
               </p>
               <p>
                 <strong className="text-white">12:50-13:05</strong>{" "}
-                <strong className="text-green-300">ST12</strong>
+                <strong className="text-green-300">Anirban Guha</strong>
                 <strong className="text-blue-300">
                   - Plasticity in photoprotective functions in tropical and
                   temperate tree species under climate change like conditions
@@ -327,9 +328,7 @@ class ConferenceSchedule extends Component {
               </p>
               <p>
                 <strong>
-                  <strong className="text-red-300">
-                    13:15-16:00 Lunch 2 and poster
-                  </strong>
+                  <strong className="text-red-300">13:15-16:00 Lunch 2</strong>
                 </strong>
               </p>
             </div>

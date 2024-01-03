@@ -55,8 +55,8 @@ const Contact = () => {
               <li>
                 For participants traveling directly from the ISPP meeting at
                 Bhubaneshwar, flights are available to Bhopal Raja Bhoj Airport
-                with a layover at Delhi/Mumbai. The total flight time is
-                approximately 5-6 hours.
+                with a layover at Delhi/Mumbai/Hyderabad/Bangalore. The total
+                flight time is approximately 5-6 hours.
               </li>
               <li>
                 IISER Bhopal is located within a distance of 10km from Bhopal

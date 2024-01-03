@@ -30,6 +30,22 @@ import {
   kishoreCSPanigrahi,
   raghavendra,
   chandansahi,
+  sp1,
+  sp2,
+  sp3,
+  sp4,
+  sp5,
+  sp6,
+  sp7,
+  sp8,
+  sp9,
+  sp10,
+  sp11,
+  sp12,
+  sp13,
+  sp14,
+  sp15,
+  sp16,
 } from "../assets";
 
 export const navLinks = [
@@ -73,13 +89,13 @@ export const features = [
     id: "deadline-2",
     icon: star,
     title: "Late Registration Deadline",
-    content: "17th December 2023",
+    content: "20th December 2023",
   },
   {
     id: "deadline-3",
     icon: star,
     title: "Abstract Submission Deadline",
-    content: "17th December 2023",
+    content: "20th December 2023",
   },
 ];
 
@@ -156,7 +172,7 @@ export const feedback = [
   },
   {
     id: "feedback-11",
-    name: "Shyam Masakapalli",
+    name: "Shyam K. Masakapalli",
     affiliation: "IIT Mandi, INDIA",
     link: "https://sites.google.com/view/metsysbiolab",
     img: shyam,
@@ -173,7 +189,7 @@ export const feedback = [
 export const feedback2 = [
   {
     id: "feedback-13",
-    name: "Ute Hocker",
+    name: "Ute Höcker",
     affiliation: "CEPLAS, Germany",
     link: "https://www.ceplas.eu/en/research/prof-dr-ute-hoecker",
     img: utehöcker,
@@ -218,10 +234,96 @@ export const organizers = [
 export const sponsors = [
   {
     id: "feedback-1",
-    name: "Accumax",
+    name: "",
     title: "",
-    img: accumax,
+    img: sp1,
   },
+  {
+    id: "feedback-1",
+    name: "",
+    title: "",
+    img: sp2,
+  },
+  {
+    id: "feedback-1",
+    name: "",
+    title: "",
+    img: sp3,
+  },
+  {
+    id: "feedback-1",
+    name: "",
+    title: "",
+    img: sp4,
+  },
+  {
+    id: "feedback-1",
+    name: "",
+    title: "",
+    img: sp5,
+  },
+  {
+    id: "feedback-1",
+    name: "",
+    title: "",
+    img: sp6,
+  },
+  {
+    id: "feedback-1",
+    name: "",
+    title: "",
+    img: sp7,
+  },
+  {
+    id: "feedback-1",
+    name: "",
+    title: "",
+    img: sp8,
+  },
+  {
+    id: "feedback-1",
+    name: "",
+    title: "",
+    img: sp9,
+  },
+  {
+    id: "feedback-1",
+    name: "",
+    title: "",
+    img: sp10,
+  },
+
+  {
+    id: "feedback-1",
+    name: "",
+    title: "",
+    img: sp11,
+  },
+  {
+    id: "feedback-1",
+    name: "",
+    title: "",
+    img: sp12,
+  },
+  {
+    id: "feedback-1",
+    name: "",
+    title: "",
+    img: sp13,
+  },
+  {
+    id: "feedback-1",
+    name: "",
+    title: "",
+    img: sp14,
+  },
+  {
+    id: "feedback-1",
+    name: "",
+    title: "",
+    img: sp15,
+  },
+  
 ];
 
 export const coorganizers = [
